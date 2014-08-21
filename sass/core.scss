@@ -1279,16 +1279,18 @@
     }
   }
 
+  .yotpo-main-widget{
+    &.yotpo-medium{
+      background-color: $primary!important;
+    }
+  }
+
   /* Widget Stracture */
   &.yotpo-main-widget {
     display: block;
     width: $main-widget-width;
     margin: 0 auto;
     background-color: $bg-color!important;
-
-    &.yotpo-medium{
-      background-color: $primary!important;
-    }
   }
 
   &.yotpo-main-widget, .yotpo-modal-dialog {
