@@ -965,6 +965,11 @@
   }
 
   .yotpo-review, .yotpo-comment, .yotpo-question{
+    
+    &.yotpo-question-box{
+      postion: relative;
+    }
+    
     .yotpo-header{
       position: relative;
       color: $gray;
@@ -1122,6 +1127,12 @@
         padding-bottom: 0;
         width: 100%;
         white-space: normal;
+      }
+
+      &.yotpo-answer-main{
+        position: absolute;
+        top: 43px;
+        left: 5px;
       }
     }
 
