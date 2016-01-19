@@ -1,18 +1,15 @@
 .yotpo-reviews-carousel {
-  .yotpo-icon-star, .yotpo-icon-empty-star, .yotpo-icon-full-star, .yotpo-icon-half-star{
+  direction: ltr;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  .yotpo-icon-star, .yotpo-icon-empty-star, .yotpo-icon-full-star, .yotpo-icon-half-star {
       color: $yellow;
       font-size: 26px !important;
-
-    }
+  }
   .icon-yotpo-top-corner, .icon-yotpo-right-corner, .icon-yotpo-left-corner {
     color: rgb(223, 223, 223);
     position: absolute;
   }
-
-  font-family: 'Open Sans', sans-serif;
-  position: relative;
-
-
   .yotpo-icon-btn-big {
     padding: 0 0 0 5px;
   }
@@ -84,7 +81,6 @@
         float: none;
       }
     }
-
 
     div {
       //display: inline-block;
