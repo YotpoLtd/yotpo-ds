@@ -193,27 +193,29 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 40px 28px 28px;
-            .yotpo-read-more {
-              display: none;
-            }
-            .rest-content-collapsed {
-              opacity: 1;
-              display: inherit;
-            }
-            .yotpo-tool-tip {
-              z-index: 88890;
-            }
-            .yotpo-footer {
-              .label-helpful {
+            .yotpo-review {
+              .yotpo-read-more {
                 display: none;
               }
-              .share-options-wrapper {
-                span[data-social='google'], span[data-social='linkedin'] {
+              .rest-content-collapsed {
+                opacity: 1;
+                display: inherit;
+              }
+              .yotpo-tool-tip {
+                z-index: 88890;
+              }
+              .yotpo-footer {
+                .label-helpful {
                   display: none;
                 }
-                span[data-social='twitter'] {
-                  .yotpo-icon-dot {
+                .share-options-wrapper {
+                  span[data-social='google'], span[data-social='linkedin'] {
                     display: none;
+                  }
+                  span[data-social='twitter'] {
+                    .yotpo-icon-dot {
+                      display: none;
+                    }
                   }
                 }
               }
@@ -294,6 +296,11 @@
         &.yotpo-modal-active {
           .yotpo-modal-container {
             max-height: 700px;
+            .yotpo-main {
+              padding: 1px 0;
+              overflow-y: auto;
+              max-height: 514px;
+            }
           }
         }
       }
@@ -332,6 +339,13 @@
             .yotpo-gallery-content-container {
               width: 390px;
               max-height: 530px;
+              .yotpo-review {
+                .yotpo-main {
+                  padding: 1px 0;
+                  overflow-y: auto;
+                  max-height: 390px;
+                }
+              }
             }
           }
         }
@@ -370,6 +384,13 @@
             .yotpo-gallery-content-container {
               width: 368px;
               max-height: 420px;
+              .yotpo-review {
+                .yotpo-main {
+                  padding: 1px 0;
+                  overflow-y: auto;
+                  max-height: 277px;
+                }
+              }
             }
           }
         }
@@ -432,10 +453,13 @@
               }
             }
             .yotpo-gallery-content-container {
-              .yotpo-icon-profile {
-                display: none;
-              }
               width: 275px;
+              max-height: none;
+              .yotpo-review {
+                .yotpo-icon-profile {
+                  display: none;
+                }
+              }
             }
           }
         }
