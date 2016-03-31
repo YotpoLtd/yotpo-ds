@@ -115,7 +115,6 @@
                   width: 20%;
                 }
                 .yotpo-gallery-image {
-                  cursor: pointer;
                   max-width: 100%;
                   max-height: 656px;
                   border-radius: 3px;
@@ -433,6 +432,9 @@
               }
             }
             .yotpo-gallery-content-container {
+              .yotpo-icon-profile {
+                display: none;
+              }
               width: 275px;
             }
           }
