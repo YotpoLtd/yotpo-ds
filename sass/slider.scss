@@ -1,0 +1,113 @@
+.yotpo-slider {
+  .yotpo-display-wrapper {
+    overflow: hidden;
+    position: relative;
+    .y-slider-container {
+      font-size: 0;
+      line-height: 0;
+      position: relative;
+      &.y-slider-animations {
+        -webkit-transition: left 0.45s ease-out 0s;
+        -moz-transition: left 0.45s ease-out 0s;
+        -ms-transition: left 0.45s ease-out 0s;
+        -o-transition: left 0.45s ease-out 0s;
+        transition: left 0.45s ease-out 0s;
+      }
+      .y-slider-image-container {
+        padding: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        .y-slider-image {
+          border-radius: 3px;
+        }
+        .y-slider-spacer {
+          padding-left: 8px;
+          line-height: 0;
+        }
+      }
+    }
+    .arrows div {
+      color: #ffffff;
+      background-color: #17191e;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 20px;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 9;
+      text-indent: -9999px;
+      background-position: 12px 38px;
+      background-repeat: no-repeat;
+      opacity: 0.4;
+      filter: alpha(opacity=40);
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      -ms-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+    }
+    .arrows div.arrow-left {
+      left: -8px;
+      font-size: 0px;
+      font-size: 0rem;
+      line-height: 1.2em;
+    }
+    .arrows div.arrow-left::after {
+      content: "\f053";
+      font-family: "FontAwesome";
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 1.2em;
+      display: block;
+      text-indent: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin: -10px 10px 0;
+    }
+    .arrows div.arrow-left:hover {
+      left: 0;
+      color: #13b1d2;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -webkit-transition: 0s;
+      -moz-transition: 0s;
+      -ms-transition: 0s;
+      -o-transition: 0s;
+      transition: 0s;
+    }
+    .arrows div.arrow-right {
+      right: -8px;
+      font-size: 0;
+      font-size: 0;
+      line-height: 1.2em;
+    }
+    .arrows div.arrow-right::after {
+      content: "\f054";
+      font-family: "FontAwesome";
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 1.2em;
+      display: block;
+      text-indent: 0;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin: -10px 10px 0;
+    }
+    .arrows div.arrow-right:hover {
+      right: 0;
+      color: #13b1d2;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -webkit-transition: 0s;
+      -moz-transition: 0s;
+      -ms-transition: 0s;
+      -o-transition: 0s;
+      transition: 0s;
+    }
+  }
+}

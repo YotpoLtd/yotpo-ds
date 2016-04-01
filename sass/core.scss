@@ -3083,7 +3083,7 @@
               -ms-transition: opacity 0.5s ease-out 0s;
               -o-transition: opacity 0.5s ease-out 0s;
               transition: opacity 0.5s ease-out 0s;
-              .gallery-images-container {
+              .y-slider-container {
                 display: table;
                 table-layout: fixed;
                 position: absolute;
@@ -3091,7 +3091,7 @@
                 height: 100%;
                 width: 500%;
                 font-size: 0;
-                &.gallery-animations {
+                &.y-slider-animations {
                   -webkit-transition: left 0.5s ease-out 0s;
                   -moz-transition: left 0.5s ease-out 0s;
                   -ms-transition: left 0.5s ease-out 0s;
