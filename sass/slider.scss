@@ -26,7 +26,7 @@
         }
       }
     }
-    .arrows div {
+    .y-arrows div {
       color: #ffffff;
       background-color: #17191e;
       background-color: rgba(0, 0, 0, 0.8);
@@ -49,13 +49,13 @@
       -o-transition: 1s;
       transition: 1s;
     }
-    .arrows div.arrow-left {
+    .y-arrows div.yotpo-icon-left-arrow {
       left: -8px;
       font-size: 0px;
       font-size: 0rem;
       line-height: 1.2em;
     }
-    .arrows div.arrow-left::after {
+    .y-arrows div.yotpo-icon-left-arrow::after {
       content: "\f053";
       font-family: "FontAwesome";
       font-size: 20px;
@@ -68,7 +68,7 @@
       top: 50%;
       margin: -10px 10px 0;
     }
-    .arrows div.arrow-left:hover {
+    .y-arrows div.yotpo-icon-left-arrow:hover {
       left: 0;
       color: #13b1d2;
       opacity: 1;
@@ -79,13 +79,13 @@
       -o-transition: 0s;
       transition: 0s;
     }
-    .arrows div.arrow-right {
+    .y-arrows div.yotpo-icon-right-arrow {
       right: -8px;
       font-size: 0;
       font-size: 0;
       line-height: 1.2em;
     }
-    .arrows div.arrow-right::after {
+    .y-arrows div.yotpo-icon-right-arrow::after {
       content: "\f054";
       font-family: "FontAwesome";
       font-size: 20px;
@@ -98,7 +98,7 @@
       top: 50%;
       margin: -10px 10px 0;
     }
-    .arrows div.arrow-right:hover {
+    .y-arrows div.yotpo-icon-right-arrow:hover {
       right: 0;
       color: #13b1d2;
       opacity: 1;
