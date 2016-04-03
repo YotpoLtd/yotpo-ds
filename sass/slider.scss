@@ -55,9 +55,7 @@
       font-size: 0rem;
       line-height: 1.2em;
     }
-    .y-arrows div.yotpo-icon-left-arrow::after {
-      content: "\f053";
-      font-family: "FontAwesome";
+    .y-arrows div.yotpo-icon-left-arrow::before {
       font-size: 20px;
       font-size: 2rem;
       line-height: 1.2em;
@@ -85,9 +83,7 @@
       font-size: 0;
       line-height: 1.2em;
     }
-    .y-arrows div.yotpo-icon-right-arrow::after {
-      content: "\f054";
-      font-family: "FontAwesome";
+    .y-arrows div.yotpo-icon-right-arrow::before {
       font-size: 20px;
       font-size: 2rem;
       line-height: 1.2em;
