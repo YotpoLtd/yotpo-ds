@@ -243,6 +243,12 @@
             .yotpo-logo-title > a {
               color: $gray !important;
             }
+            .logo-not-clickable-container {
+              cursor: default;
+              div {
+                display: inline;
+              }
+            }
           }
         }
       }
