@@ -4746,16 +4746,17 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
 }
 /* line 25, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-slider-container .y-slider-image-container .y-slider-spacer {
-  max-height: 180px;
-  max-width: 180px;
-  padding-left: 8px;
+  max-height: 185px;
+  max-width: 185px;
+  padding-left: 5px;
   line-height: 0;
+  display: block;
+  float: left;
 }
-/* line 33, ../sass/slider.scss */
+/* line 35, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows div {
   color: #ffffff;
-  background-color: #17191e;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
   display: inline-block;
   padding: 0 20px;
   margin: 0;
@@ -4774,18 +4775,18 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   -o-transition: 1s;
   transition: 1s;
 }
-/* line 56, ../sass/slider.scss */
+/* line 57, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow {
   cursor: pointer;
   font-size: 0;
   line-height: 1.2em;
 }
-/* line 61, ../sass/slider.scss */
+/* line 62, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-/* line 64, ../sass/slider.scss */
+/* line 65, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow::before {
   font-size: 2rem;
   line-height: 1.2em;
@@ -4796,7 +4797,7 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   top: 50%;
   margin: -18px 10px 0;
 }
-/* line 74, ../sass/slider.scss */
+/* line 75, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow:hover {
   padding: 0 20px 0 40px;
   opacity: 1;
@@ -4807,12 +4808,12 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   -o-transition: 0s;
   transition: 0s;
 }
-/* line 85, ../sass/slider.scss */
+/* line 86, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
-/* line 88, ../sass/slider.scss */
+/* line 89, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow::before {
   font-size: 2rem;
   line-height: 1.2em;
@@ -4823,7 +4824,7 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   top: 50%;
   margin: -18px 10px 0;
 }
-/* line 98, ../sass/slider.scss */
+/* line 99, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow:hover {
   padding: 0 40px 0 20px;
   opacity: 1;
