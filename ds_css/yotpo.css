@@ -4775,7 +4775,7 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   transition: 1s;
 }
 /* line 56, ../sass/slider.scss */
-.yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-left {
+.yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow {
   cursor: pointer;
   font-size: 0;
   line-height: 1.2em;
