@@ -34,7 +34,6 @@
       color: #ffffff;
       background-color: #17191e;
       background-color: rgba(0, 0, 0, 0.8);
-      text-decoration: none;
       display: inline-block;
       padding: 0 20px;
       margin: 0;
@@ -59,7 +58,8 @@
         line-height: 1.2em;
       }
       .yotpo-icon-left-arrow {
-        left: -8px;
+        left: 0;
+        border-radius: 3px 0 0 3px;
         &::before {
           font-size: 2rem;
           line-height: 1.2em;
@@ -68,10 +68,10 @@
           position: absolute;
           right: 0;
           top: 50%;
-          margin: -10px 10px 0;
+          margin: -18px 10px 0;
         }
         &:hover {
-          left: 0;
+          padding: 0 20px 0 40px;
           color: #13b1d2;
           opacity: 1;
           filter: alpha(opacity=100);
@@ -83,7 +83,8 @@
         }
       }
       .yotpo-icon-right-arrow {
-        right: -8px;
+        right: 0;
+        border-radius: 0 3px 3px 0;
         &::before {
           font-size: 2rem;
           line-height: 1.2em;
@@ -92,10 +93,10 @@
           position: absolute;
           left: 0;
           top: 50%;
-          margin: -10px 10px 0;
+          margin: -18px 10px 0;
         }
         &:hover {
-          right: 0;
+          padding: 0 40px 0 20px;
           color: #13b1d2;
           opacity: 1;
           filter: alpha(opacity=100);
