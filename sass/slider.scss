@@ -53,7 +53,8 @@
       transition: 1s;
     }
     .y-arrows {
-      .yotpo-icon-right-arrow, .yotpo-icon-right-arrow {
+      .yotpo-icon-right-arrow, .yotpo-icon-right-left {
+        cursor: pointer;
         font-size: 0;
         line-height: 1.2em;
       }
@@ -72,7 +73,6 @@
         }
         &:hover {
           padding: 0 20px 0 40px;
-          color: #13b1d2;
           opacity: 1;
           filter: alpha(opacity=100);
           -webkit-transition: 0s;
@@ -97,7 +97,6 @@
         }
         &:hover {
           padding: 0 40px 0 20px;
-          color: #13b1d2;
           opacity: 1;
           filter: alpha(opacity=100);
           -webkit-transition: 0s;
