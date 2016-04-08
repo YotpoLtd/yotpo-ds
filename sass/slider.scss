@@ -28,27 +28,25 @@
         }
       }
     }
-    .y-arrows div {
-      color: $white;
-      background: $black 12px 38px no-repeat;
-      display: inline-block;
-      padding: 0 20px;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      height: 100%;
-      z-index: 9;
-      text-indent: -9999px;
-      opacity: 0.4;
-      filter: alpha(opacity=40);
-      -webkit-transition: 1s;
-      -moz-transition: 1s;
-      -ms-transition: 1s;
-      -o-transition: 1s;
-      transition: 1s;
-    }
     .y-arrows {
       .yotpo-icon-right-arrow-thin, .yotpo-icon-left-arrow-thin {
+        color: $white;
+        background: $black 12px 38px no-repeat;
+        display: inline-block;
+        padding: 0 20px;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        z-index: 9;
+        text-indent: -9999px;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
         cursor: pointer;
         font-size: 0;
         line-height: 1.2em;

@@ -4749,8 +4749,8 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   padding-left: 5px;
   line-height: 0;
 }
-/* line 31, ../sass/slider.scss */
-.yotpo-slider .yotpo-display-wrapper .y-arrows div {
+/* line 32, ../sass/slider.scss */
+.yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin {
   color: #ffffff;
   background: #000000 12px 38px no-repeat;
   display: inline-block;
@@ -4768,14 +4768,11 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   -ms-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-}
-/* line 51, ../sass/slider.scss */
-.yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin {
   cursor: pointer;
   font-size: 0;
   line-height: 1.2em;
 }
-/* line 55, ../sass/slider.scss */
+/* line 53, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin::before, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin::before {
   font-size: 35px;
   line-height: 1.2em;
@@ -4785,7 +4782,7 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   top: 50%;
   margin: -22px 3px 0;
 }
-/* line 64, ../sass/slider.scss */
+/* line 62, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin:hover, .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin:hover {
   padding: 0 20px 0 40px;
   opacity: 0.7;
@@ -4796,21 +4793,21 @@ div.yotpo-preloader-wrapper .yotpo-pre-loader span.yotpo-empty-stars {
   -o-transition: 0s;
   transition: 0s;
 }
-/* line 75, ../sass/slider.scss */
+/* line 73, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-/* line 78, ../sass/slider.scss */
+/* line 76, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-left-arrow-thin::before {
   right: 0;
 }
-/* line 82, ../sass/slider.scss */
+/* line 80, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
-/* line 85, ../sass/slider.scss */
+/* line 83, ../sass/slider.scss */
 .yotpo-slider .yotpo-display-wrapper .y-arrows .yotpo-icon-right-arrow-thin::before {
   left: 0;
 }
