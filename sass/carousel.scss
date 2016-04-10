@@ -182,6 +182,16 @@
           margin-bottom: 9px;
         }
       }
+      &.y-slider-animations {
+        -webkit-transition: left 0.45s ease-out 0s;
+        -moz-transition: left 0.45s ease-out 0s;
+        -ms-transition: left 0.45s ease-out 0s;
+        -o-transition: left 0.45s ease-out 0s;
+        transition: left 0.45s ease-out 0s;
+      }
+      .y-slider-element {
+        float: left;
+      }
     }
   }
   .yotpo-small-box {
