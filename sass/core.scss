@@ -1755,6 +1755,18 @@
       }
     }
 
+    .logo-not-clickable-container {
+      cursor: default;
+    }
+    .logo-not-clickable-size {
+      font-size: 30px;
+    }
+    .logo-not-clickable-color {
+      color: $primary;
+      &:hover {
+        color: $primary-l1;
+      }
+    }
     .yotpo-semi-label {
       position: relative;
       float: $left;
@@ -2912,6 +2924,11 @@
     display: none;
   }
 
+  #yotpo-testimonials {
+    .logo-not-clickable-color{
+      color: white;
+    }
+  }
   /* Testimonials Button */
   .yotpo-testimonials-btn {
     position: fixed;
@@ -3003,6 +3020,15 @@
     .yotpo-icon {
       color: $gray;
       font-size: 25px;
+      &.logo-not-clickable-color {
+        color: $primary;
+        &:hover {
+          color: $primary-l1;
+        }
+      }
+      &.logo-not-clickable-size {
+        font-size: 30px;
+      }
     }
   }
   .yotpo-review{

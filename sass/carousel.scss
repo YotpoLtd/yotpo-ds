@@ -265,4 +265,26 @@
       }
     }
   }
+  .logo-not-clickable-container {
+    cursor: default;
+    padding: 0;
+    div {
+      display: inline;
+    }
+  }
+.logo-not-clickable-container {
+    cursor: default !important;
+}
+.logo-not-clickable-container {
+    cursor: default !important;
+}
+.logo-not-clickable-size {
+  font-size: 30px;
+}
+.logo-not-clickable-color {
+  color: $primary;
+  &:hover {
+    color: $primary-l1;
+  }
+}
 }
