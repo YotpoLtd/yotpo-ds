@@ -92,7 +92,7 @@
                 background: inherit;
                 text-align: center;
                 display: table;
-                .gallery-images-container {
+                .y-slider-container {
                   display: table;
                   table-layout: fixed;
                   position: absolute;
@@ -192,7 +192,7 @@
             z-index: 8888;
             width: 426px;
             border-radius: 0 3px 3px 0;
-            padding: 28px 40px 28px 28px;
+            padding: 28px 32px 28px 22px;
             .yotpo-review {
               .yotpo-read-more {
                 display: none;
@@ -254,7 +254,7 @@
       }
     }
 
-    &.yotpo-size-6, &.yotpo-size-5, &.yotpo-size-4, &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
+    @media only screen and (max-width: 1280px) {
       .yotpo-modal {
         .yotpo-review {
           .yotpo-main {
@@ -270,14 +270,14 @@
       }
     }
 
-    &.yotpo-size-4, &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
+    @media only screen and (max-width: 768px) {
       .yotpo-modal {
         .yotpo-modal-container {
           top: 5%;
           margin: auto;
           .yotpo-gallery-slider-container {
             position: inherit;
-            border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0 !important;
             .yotpo-icon-btn-small {
               .yotpo-icon {
                 &.yotpo-icon-cross {
@@ -290,14 +290,14 @@
           .yotpo-gallery-content-container {
             height: auto;
             right: 0;
-            border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px !important;
             position: inherit;
           }
         }
       }
     }
 
-    &.yotpo-size-7 {
+    @media only screen and (min-width: 1280px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -312,7 +312,7 @@
       }
     }
 
-    &.yotpo-size-6 {
+    @media only screen and (max-width: 1280px) and (min-width: 960px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -358,7 +358,7 @@
       }
     }
 
-    &.yotpo-size-5 {
+    @media only screen and (max-width: 960px) and (min-width: 768px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -403,7 +403,7 @@
       }
     }
 
-    &.yotpo-size-4, &.yotpo-size-3 {
+    @media only screen and (max-width: 768px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -429,13 +429,14 @@
             .yotpo-gallery-content-container {
               position: inherit;
               width: 445px;
+              right: 0;
             }
           }
         }
       }
     }
 
-    &.yotpo-size-2, &.yotpo-size-1 {
+    @media only screen and (max-width: 480px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -467,6 +468,20 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+#yotpo-testimonials {
+  .yotpo {
+    &.yotpo-gallery {
+      .yotpo-modal {
+        .yotpo-modal-mask {
+          &.yotpo-active-display {
+            opacity: 0.4;
           }
         }
       }
