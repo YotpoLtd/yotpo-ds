@@ -89,6 +89,7 @@
       .single-carousel {
         display: inline-block;
         vertical-align: top;
+        float: $left;
         .carousel-review-date {
           line-height: 29px;
           padding-left: 6px;
@@ -181,9 +182,6 @@
         .carousel-review-title {
           margin-bottom: 9px;
         }
-      }
-      .y-slider-element {
-        float: left;
       }
     }
   }
