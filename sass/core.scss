@@ -3356,11 +3356,11 @@
     }
   }
   .y-slide-left-animations {
-    -webkit-transition: left 0.45s ease-out 0s;
-    -moz-transition: left 0.45s ease-out 0s;
-    -ms-transition: left 0.45s ease-out 0s;
-    -o-transition: left 0.45s ease-out 0s;
-    transition: left 0.45s ease-out 0s;
+    -webkit-transition: $left 0.45s ease-out 0s;
+    -moz-transition: $left 0.45s ease-out 0s;
+    -ms-transition: $left 0.45s ease-out 0s;
+    -o-transition: $left 0.45s ease-out 0s;
+    transition: $left 0.45s ease-out 0s;
   }
 }
 
