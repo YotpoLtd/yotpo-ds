@@ -390,6 +390,14 @@
     content: "\e629";
   }
 
+  .yotpo-icon-clock:before {
+    content: "\e630";
+  }
+
+  .yotpo-icon-image:before {
+    content: "\e631";
+  }
+
   .yotpo-icon-half-star {
     -moz-transform: scaleX($flip);
     -o-transform: scaleX($flip);
@@ -1046,22 +1054,21 @@
   .yotpo-dropdown {
     display: none;
     position: absolute;
-    left: 45px;
+    right: 0;
     top:  20px;
-    min-width: 96px;
+    min-width: 177px;
     max-height: 300px;
-    /*padding: 16px 16px;*/
-    text-align: left;
+    text-align: $left;
     background: $white !important;
     border: solid 1px $gray-light;
+    border-radius: 3px;
     z-index: 10;
     ul{
-      background: red;
       margin: 0px;
       padding: 0px;
     }
 
-    .list-category{
+    .list-category {
       display: block;
       padding: 7px 9px 9px 9px;
       font-size: 12px;
@@ -1069,19 +1076,32 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      & + .list-category {
+        border-top: solid 1px $gray-light;
+      }
+      cursor: pointer;
 
       &:first-letter{
         text-transform: capitalize;
       }
 
-      &:hover{
-        cursor: pointer;
-        background: $gray-light;
+      &:hover {
+        background-color: $gray-lighter !important;
+        a {
+          color: $primary !important;
+        }
+        span {
+          color: $primary;
+        }
       }
 
-      a{
+      a {
         font-size: 12px;
         color: $gray-dark !important;
+        span {
+          display: inline-block;
+          padding-right: 10px;
+        }
       }
     }
   }
