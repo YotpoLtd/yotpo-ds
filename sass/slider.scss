@@ -1,9 +1,26 @@
 .yotpo-slider {
+  .yotpo-slider-title-wrapper{
+    text-align: $slider-title-alignment;
+    margin-bottom: 20px;
+
+    .yotpo-slider-title {
+      color: $slider-title-color;
+      font-size: $slider-title-font-size;
+      font-family: $font-type;
+      line-height: $slider-title-font-size;
+    }
+  }
+  .yotpo-slider-wrapper{
+    position: relative;
+    margin: auto;
+    text-align: center;
+  }
   .yotpo-display-wrapper {
     overflow: hidden;
     position: relative;
     margin: auto;
     text-align: center;
+
     .y-slider-container {
       font-size: 0;
       line-height: 0;
