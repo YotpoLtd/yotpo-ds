@@ -19,8 +19,14 @@ $badge_poweredBy_left: 25px;
 $badge_poweredBy_font_size: 13px;
 $badge_reviews_top: -100px;
 $badge_reviews_font_size: 33px;
+$slider-title-alignment: center;
+$slider-title-color: red;
+$slider-title-font-size: 22px;
+$slider-hover-background-color: #000000;
+$slider-hover-opacity: 0.8;
+$slider-hover-show-icon: true;
 
-/* Yotpo */
+  /* Yotpo */
 @import "../sass/general_rules";
 @import "../sass/core";
 @import "../sass/embedded_widget";

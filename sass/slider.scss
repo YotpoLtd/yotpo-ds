@@ -41,6 +41,41 @@
           padding-left: 5px;
           line-height: 0;
         }
+        .y-slider-image-wrapper {
+          position: relative;
+        }
+        .y-slider-image-overlay {
+          position: absolute;
+          z-index: 6;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: $slider-hover-background-color;
+          opacity: 0;
+          text-align: center;
+          border-radius: 3px;
+          .slider-hover-icon {
+            display: inline-block;
+            vertical-align: middle;
+            .yotpo-icon-star, .yotpo-icon-empty-star  {
+              font-size: 24px;
+              color: $white;
+            }
+          }
+          &:hover {
+            opacity: $slider-hover-opacity;
+          }
+          &:hover .slider-hover-icon {
+            opacity: 1;
+          }
+        }
+        .y-slider-image-overlay:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
       }
     }
     .y-arrows {
@@ -112,6 +147,24 @@
           }
           &:hover {
             padding: 0 5px 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .yotpo-slider {
+    .yotpo-display-wrapper {
+      .y-slider-container {
+        .y-slider-image-container {
+          .y-slider-image-overlay {
+            .slider-hover-icon {
+              .yotpo-icon-star, .yotpo-icon-empty-star  {
+                font-size: 15px;
+              }
+            }
           }
         }
       }
