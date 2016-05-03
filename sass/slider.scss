@@ -151,6 +151,12 @@
         }
       }
     }
+    .yotpo-slider-title-wrapper {
+      margin-bottom: 5px;
+      .yotpo-slider-title {
+        font-size: $slider-title-mobile-font-size;
+      }
+    }
   }
 }
 
