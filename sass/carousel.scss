@@ -7,7 +7,7 @@
   }
   .icon-yotpo-top-corner, .icon-yotpo-right-corner, .icon-yotpo-left-corner {
     color: rgb(223, 223, 223);
-    position: absolute;
+    position: fixed;
   }
   .yotpo-icon-btn-big {
     padding: 0 0 0 5px;
@@ -192,6 +192,7 @@
   }
   .carousel-tool-tip {
     .yotpo-tool-tip {
+      position: fixed;
       top: -10px;
       right: 0px;
       width: 300px;
