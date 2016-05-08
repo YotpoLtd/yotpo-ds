@@ -273,19 +273,26 @@
       display: inline;
     }
   }
-.logo-not-clickable-container {
+  .logo-not-clickable-container {
     cursor: default !important;
-}
-.logo-not-clickable-container {
-    cursor: default !important;
-}
-.logo-not-clickable-size {
-  font-size: 30px;
-}
-.logo-not-clickable-color {
-  color: $primary;
-  &:hover {
-    color: $primary-l1;
   }
-}
+  .logo-not-clickable-container {
+    cursor: default !important;
+  }
+  .logo-not-clickable-size {
+    font-size: 30px;
+  }
+  .logo-not-clickable-color {
+    color: $primary;
+    &:hover {
+      color: $primary-l1;
+    }
+  }
+  .y-slide-left-animations {
+    -webkit-transition: $left 1.45s ease-out 0s;
+    -moz-transition: $left 1.45s ease-out 0s;
+    -ms-transition: $left 1.45s ease-out 0s;
+    -o-transition: $left 1.45s ease-out 0s;
+    transition: $left 1.45s ease-out 0s;
+  }
 }
