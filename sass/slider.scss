@@ -39,10 +39,10 @@
         }
         .y-slider-spacer {
           padding-left: 5px;
-          line-height: 0;
         }
         .y-slider-image-wrapper {
           position: relative;
+          line-height: 0;
         }
         .y-slider-image-overlay {
           position: absolute;
@@ -55,6 +55,7 @@
           opacity: 0;
           text-align: center;
           border-radius: 3px;
+          cursor: pointer;
           .slider-hover-icon {
             display: inline-block;
             vertical-align: middle;
