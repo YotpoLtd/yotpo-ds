@@ -350,11 +350,17 @@
   .yotpo-icon-circle-checkmark:before {
     content: "\e619";
   }
-  .yotpo-icon-half-star:before {
+  .yotpo-icon-default-half-star:before {
     content: "\e61a";
   }
-  .yotpo-icon-empty-star:before {
+  .yotpo-icon-half-star {
+    @extend .yotpo-icon-default-half-star;
+  }
+  .yotpo-icon-default-empty-star:before {
     content: "\e61b";
+  }
+  .yotpo-icon-empty-star {
+    @extend .yotpo-icon-default-empty-star;
   }
   .yotpo-icon-profile-picture:before {
     content: "\e61c";
