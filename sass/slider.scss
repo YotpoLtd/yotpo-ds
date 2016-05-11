@@ -59,8 +59,12 @@
           .slider-hover-icon {
             display: inline-block;
             vertical-align: middle;
-            .yotpo-icon-star, .yotpo-icon-empty-star  {
+            .yotpo-icon-star, .yotpo-icon-empty-star {
               font-size: 24px;
+              color: $white;
+            }
+            .yotpo-icon-insta {
+              font-size: 40px;
               color: $white;
             }
           }
@@ -162,19 +166,6 @@
           }
         }
       }
-    }
-    .yotpo-slider-title-wrapper {
-      margin-bottom: 5px;
-      .yotpo-slider-title {
-        font-size: $slider-title-mobile-font-size;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .yotpo-slider {
-    .yotpo-display-wrapper {
       .y-slider-container {
         .y-slider-image-container {
           .y-slider-image-overlay {
@@ -182,9 +173,18 @@
               .yotpo-icon-star, .yotpo-icon-empty-star  {
                 font-size: 15px;
               }
+              .yotpo-icon-insta {
+                font-size: 20px;
+              }
             }
           }
         }
+      }
+    }
+    .yotpo-slider-title-wrapper {
+      margin-bottom: 5px;
+      .yotpo-slider-title {
+        font-size: $slider-title-mobile-font-size;
       }
     }
   }
