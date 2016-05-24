@@ -193,7 +193,7 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 32px 28px 22px;
-            .yotpo-review {
+            .yotpo-review, .yotpo-instagram {
               .yotpo-read-more {
                 display: none;
               }
@@ -352,6 +352,11 @@
                   max-height: 390px;
                 }
               }
+             .yotpo-instagram {
+               .yotpo-regular-box {
+                 padding-left: 0;
+               }
+             }
             }
           }
         }
