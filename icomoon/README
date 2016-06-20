@@ -1,0 +1,12 @@
+ICOMOON ICONS
+-------------
+
+In the new widget we dont use a sprtiesheet or images at all, we use a font file for all of our icons.
+We use a service called icomoon in order to create icon files from SVG files.
+
+These are the source files to use when using icomoon to generate icons.
+
+Wiki page:
+https://sites.google.com/a/yotpo.com/yotpo-internal-wiki/cms/icon-fonts?pli=1
+
+When updating the fonts file, you must update the selection.json file.
