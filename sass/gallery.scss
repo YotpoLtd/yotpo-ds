@@ -193,6 +193,7 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 32px 28px 22px;
+            overflow: scroll;
             .yotpo-review, .yotpo-instagram {
               .yotpo-read-more {
                 display: none;
@@ -304,8 +305,6 @@
             max-height: 700px;
             .yotpo-main {
               padding: 1px 0;
-              overflow-y: auto;
-              max-height: 514px;
             }
           }
         }
@@ -348,8 +347,6 @@
               .yotpo-review {
                 .yotpo-main {
                   padding: 1px 0;
-                  overflow-y: auto;
-                  max-height: 390px;
                 }
               }
 
@@ -399,8 +396,6 @@
               .yotpo-review {
                 .yotpo-main {
                   padding: 1px 0;
-                  overflow-y: auto;
-                  max-height: 277px;
                 }
               }
             }
