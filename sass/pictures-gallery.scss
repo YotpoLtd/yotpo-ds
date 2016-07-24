@@ -25,7 +25,6 @@
       width: 32.5%;
     }
   }
-
   .yotpo-pictures-gallery-title-wrapper {
     margin-bottom: 20px;
     .yotpo-pictures-title {
@@ -44,6 +43,9 @@
     display: inline-block;
     max-height: 350px;
     max-width: 350px;
+    &.hide-image{
+      display: none;
+    }
     .y-image {
       border-radius: 3px;
       border: 1px solid;
