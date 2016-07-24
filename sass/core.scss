@@ -1829,7 +1829,7 @@
   }
 
 
-  .y-image-container {
+  .yotpo-image-container {
     .y-spacer {
       padding-left: 5px;
     }
@@ -1849,7 +1849,7 @@
       text-align: center;
       border-radius: 3px;
       cursor: pointer;
-      .hover-icon {
+      .yotpo-hover-icon {
         display: inline-block;
         vertical-align: middle;
         .yotpo-icon-star, .yotpo-icon-empty-star {
@@ -1864,7 +1864,7 @@
       &:hover {
         opacity: $slider-hover-opacity;
       }
-      &:hover .slider-hover-icon {
+      &:hover .yotpo-hover-icon {
         opacity: 1;
       }
     }
