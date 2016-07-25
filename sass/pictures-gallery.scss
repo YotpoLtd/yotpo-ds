@@ -1,4 +1,3 @@
-
 .yotpo-pictures-gallery {
   &.yotpo-size-7 {
     .yotpo-image-container {
@@ -33,9 +32,10 @@
     }
   }
   .yotpo-pictures-gallery-wrapper {
-    max-width: 2500px;
+    max-width: 2450px;
     overflow: hidden;
     text-align: left;
+    margin: auto;
   }
   .y-image-wrapper {
     position: absolute;
@@ -56,9 +56,6 @@
       display: block;
       padding-top: 100%;
     }
-    &.hide-image {
-      display: none;
-    }
     .yotpo-image {
       border-radius: 3px;
       border: 1px solid #e4e4e4;
@@ -68,7 +65,5 @@
       max-width:345px;
       max-height:345px;
     }
-
   }
 }
-
