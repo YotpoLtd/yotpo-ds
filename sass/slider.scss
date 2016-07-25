@@ -10,6 +10,12 @@
       line-height: $slider-title-font-size;
     }
   }
+
+  .y-image-overlay {
+    background-color: $slider-hover-background-color;
+    opacity: 0;
+  }
+
   .yotpo-slider-wrapper{
     position: relative;
     margin: auto;
