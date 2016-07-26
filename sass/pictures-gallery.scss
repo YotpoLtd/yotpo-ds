@@ -33,8 +33,9 @@
 
   .y-image-overlay {
     background-color: $pictures-gallery-hover-background-color;
-    opacity: 0;
-    border-radius: $pictures-gallery-rounded-corners !important;
+    border-radius: $pictures-gallery-rounded-corners;
+    margin-right: $pictures-gallery-margin;
+    margin-top: $pictures-gallery-margin;
 
     &:hover {
       opacity: $pictures-gallery-hover-opacity;
@@ -64,8 +65,8 @@
   }
   .yotpo-single-image-container {
     position: relative;
-    margin-right: $pictures-gallery-margin-right;
-    margin-top: $pictures-gallery-margin-right;
+    margin-right: $pictures-gallery-margin;
+    margin-top: $pictures-gallery-margin;
     padding: 0;
     box-sizing: border-box;
     display: inline-block;
