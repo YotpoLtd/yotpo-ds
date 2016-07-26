@@ -34,9 +34,6 @@
   .y-image-overlay {
     background-color: $pictures-gallery-hover-background-color;
     border-radius: $pictures-gallery-rounded-corners;
-    margin-right: $pictures-gallery-margin;
-    margin-top: $pictures-gallery-margin;
-
     &:hover {
       opacity: $pictures-gallery-hover-opacity;
     }
