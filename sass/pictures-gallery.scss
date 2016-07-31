@@ -1,4 +1,29 @@
 .yotpo-pictures-gallery {
+  .yotpo-image-loader {
+    color: #e3e3e3;
+    margin: 30px auto;
+  }
+  @-webkit-keyframes yotpo-image-loader {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+  @keyframes yotpo-image-loader {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+
   &.yotpo-size-7 {
     .yotpo-single-image-container {
       width: 14%;
