@@ -5,22 +5,22 @@
     }
   }
   &.yotpo-size-6 {
-    .yotpo-image-container {
+    .yotpo-single-image-container {
       width: 16%;
     }
   }
   &.yotpo-size-5 {
-    .yotpo-image-container {
+    .yotpo-single-image-container {
       width: 19%;
     }
   }
   &.yotpo-size-4 {
-    .yotpo-image-container {
+    .yotpo-single-image-container {
       width: 24%;
     }
   }
   &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
-    .yotpo-image-container {
+    .yotpo-single-image-container {
       width: 32%;
     }
 
@@ -40,11 +40,12 @@
   }
 
   .yotpo-pictures-gallery-title-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: $pictures-gallery-title-alignment;
     .yotpo-pictures-gallery-title {
       color: $pictures-gallery-title-color;
       font-size: $pictures-gallery-title-font-size;
+      line-height: 80px;
     }
   }
   .yotpo-pictures-gallery-wrapper {
