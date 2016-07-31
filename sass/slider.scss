@@ -10,6 +10,12 @@
       line-height: $slider-title-font-size;
     }
   }
+
+  .y-image-overlay {
+    background-color: $slider-hover-background-color;
+    border-radius: 3px;
+  }
+
   .yotpo-slider-wrapper{
     position: relative;
     margin: auto;
@@ -40,6 +46,11 @@
         .y-image-wrapper {
           position: relative;
           line-height: 0;
+        }
+        .y-image-overlay{
+          &:hover {
+            opacity: $slider-hover-opacity;
+          }
         }
       }
     }

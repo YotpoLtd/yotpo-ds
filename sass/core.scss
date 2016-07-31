@@ -1835,15 +1835,12 @@
     }
     .y-image-overlay {
       position: absolute;
-      z-index: 6;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: $slider-hover-background-color;
       opacity: 0;
       text-align: center;
-      border-radius: 3px;
       cursor: pointer;
       .yotpo-hover-icon {
         display: inline-block;
@@ -1856,9 +1853,6 @@
           font-size: 40px;
           color: $white;
         }
-      }
-      &:hover {
-        opacity: $slider-hover-opacity;
       }
       &:hover .yotpo-hover-icon {
         opacity: 1;
