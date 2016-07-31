@@ -40,11 +40,12 @@
   }
 
   .yotpo-pictures-gallery-title-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: $pictures-gallery-title-alignment;
     .yotpo-pictures-gallery-title {
       color: $pictures-gallery-title-color;
       font-size: $pictures-gallery-title-font-size;
+      line-height: 80px;
     }
   }
   .yotpo-pictures-gallery-wrapper {
