@@ -47,6 +47,11 @@
           position: relative;
           line-height: 0;
         }
+        .y-image-overlay {
+          &:hover {
+            opacity: $slider-hover-opacity;
+          }
+        }
       }
     }
     .y-arrows {
