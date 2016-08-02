@@ -67,11 +67,25 @@
   .yotpo-pictures-gallery-title-wrapper {
     margin-bottom: 10px;
     text-align: $pictures-gallery-title-alignment;
+    position: relative;
     .yotpo-pictures-gallery-title {
       color: $pictures-gallery-title-color;
       font-size: $pictures-gallery-title-font-size;
       line-height: 80px;
     }
+    .yotpo-nav-dropdown{
+      right: 56px;
+      position: absolute;
+      bottom: 5px;
+    }
+  }
+  .sort-loader {
+    left: 0;
+    right: 0;
+    margin-top: 120px;
+    z-index: 9999;
+    position: absolute;
+    color: #888888;
   }
   .yotpo-pictures-gallery-wrapper {
     max-width: 2450px;
