@@ -1616,20 +1616,6 @@
     }
   }
 
-  .yotpo-gallery-content-container {
-    word-break: break-all;
-    overflow:auto;
-    hight: 100%;
-  }
-  @media only screen and (max-width: 480px) {
-    .yotpo-gallery-content-container {
-      display: block !important;
-      hight: 100%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  }
-
     .yotpo-instagram {
     .yotpo-header {
       position: relative;
@@ -1657,7 +1643,6 @@
             &.yotpo-review-date {
               top: auto;
               bottom: 90%;
-
             }
           }
         }

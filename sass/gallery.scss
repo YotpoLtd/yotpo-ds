@@ -193,6 +193,8 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 32px 28px 22px;
+            word-break: break-all;
+            overflow:auto;
             .yotpo-review, .yotpo-instagram {
               .yotpo-read-more {
                 display: none;
@@ -468,6 +470,7 @@
             .yotpo-gallery-content-container {
               width: 275px;
               max-height: none;
+              display: table;
               .yotpo-review {
                 .yotpo-icon-profile {
                   display: none;
