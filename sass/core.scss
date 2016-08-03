@@ -1616,7 +1616,7 @@
     }
   }
 
-  .yotpo-instagram {
+    .yotpo-instagram {
     .yotpo-header {
       position: relative;
       padding-bottom: 14px;
@@ -1632,8 +1632,21 @@
           vertical-align: top;
           &.yotpo-review-date {
             float: $left;
+            position: absolute;
+            right: 1%;
+            top: 18%;
+            display: block;
           }
         }
+        @media only screen and (max-width: 480px) {
+          .y-label {
+            &.yotpo-review-date {
+              top: auto;
+              bottom: 90%;
+            }
+          }
+        }
+
         img {
           border-radius: 100%;
           width: 45px;
@@ -1645,12 +1658,26 @@
           font-size: 16px;
           font-weight: bold;
           color: $instagram-username-color;
+          white-space: nowrap;
+          max-width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: block;
+          text-transform: none;
         }
+
         .yotpo-instagram-location {
           padding-left: 14px;
           padding-top: 8px;
           font-size: 14px;
           color: #888888;
+          white-space: nowrap;
+          max-width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: left;
+          float: left;
+          text-transform: none;
         }
       }
       .yotpo-header-actions {
