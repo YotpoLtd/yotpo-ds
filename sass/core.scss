@@ -1678,6 +1678,7 @@
           overflow: hidden;
           text-overflow: ellipsis;
           display: block;
+          text-transform: none;
         }
 
         .yotpo-instagram-location {
@@ -1691,6 +1692,7 @@
           text-overflow: ellipsis;
           text-align: left;
           float: left;
+          text-transform: none;
         }
       }
       .yotpo-header-actions {
