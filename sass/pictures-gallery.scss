@@ -2,51 +2,80 @@
   &.yotpo-size-7 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
-        width: 14%;
+        width: calc((100% - 30px)/7);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        &:nth-child(7n)  {
+          margin-right: 0;
+        }
       }
     }
     .yotpo-single-image-container {
-      width: 14.35%;
+      width: calc(100% / 7);
     }
   }
   &.yotpo-size-6 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
-        width: 16.3%;
+        width: calc((100% - 25px)/6);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        &:nth-child(6n)  {
+          margin-right: 0;
+        }
+
       }
     }
     .yotpo-single-image-container {
-      width: 16.8%;
+      width: calc(100% / 6);
     }
   }
   &.yotpo-size-5 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
-        width: 19.5%;
+        width: calc((100% - 20px)/5);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        &:nth-child(5n)  {
+          margin-right: 0;
+        }
+
       }
     }
     .yotpo-single-image-container {
-      width: 20.2%;
+      width: calc(100% / 5);
     }
   }
   &.yotpo-size-4 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
-        width: 24.4%;
+        width: calc((100% - 15px)/4);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        &:nth-child(4n)  {
+          margin-right: 0;
+
+        }
       }
     }
     .yotpo-single-image-container {
-      width: 25.2%;
+      width: calc(100% / 4);
     }
   }
   &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
-        width: 32.3%;
+        width: calc((100% - 10px)/3);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        &:nth-child(3n)  {
+          margin-right: 0;
+        }
+
       }
     }
     .yotpo-single-image-container {
-      width: 33.5%;
+      width: calc(100% / 3);
     }
 
     .yotpo-pictures-gallery-title-wrapper {
@@ -88,8 +117,9 @@
   }
   .yotpo-single-image-container {
     position: relative;
-    margin-right: $pictures-gallery-margin;
-    margin-top: $pictures-gallery-margin;
+    margin-right: 0;
+    margin-top: 0;
+    float: left;
     padding: 0;
     box-sizing: border-box;
     display: inline-block;
