@@ -1,27 +1,52 @@
 .yotpo-pictures-gallery {
   &.yotpo-size-7 {
+    .yotpo-image-spacing {
+      .yotpo-single-image-container {
+        width: 14%;
+      }
+    }
     .yotpo-single-image-container {
-      width: 14%;
+      width: 14.35%;
     }
   }
   &.yotpo-size-6 {
+    .yotpo-image-spacing {
+      .yotpo-single-image-container {
+        width: 16.3%;
+      }
+    }
     .yotpo-single-image-container {
-      width: 16%;
+      width: 16.8%;
     }
   }
   &.yotpo-size-5 {
+    .yotpo-image-spacing {
+      .yotpo-single-image-container {
+        width: 19.5%;
+      }
+    }
     .yotpo-single-image-container {
-      width: 19%;
+      width: 20.2%;
     }
   }
   &.yotpo-size-4 {
+    .yotpo-image-spacing {
+      .yotpo-single-image-container {
+        width: 24.4%;
+      }
+    }
     .yotpo-single-image-container {
-      width: 24%;
+      width: 25.2%;
     }
   }
   &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
+    .yotpo-image-spacing {
+      .yotpo-single-image-container {
+        width: 32.3%;
+      }
+    }
     .yotpo-single-image-container {
-      width: 32%;
+      width: 33.5%;
     }
 
     .yotpo-pictures-gallery-title-wrapper {
