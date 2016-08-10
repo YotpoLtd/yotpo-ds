@@ -124,6 +124,9 @@
     margin-bottom: 10px;
     text-align: $pictures-gallery-title-alignment;
     position: relative;
+    &.sorting-dropdown{
+        min-height: 20px;
+    }
     .yotpo-pictures-gallery-title {
       color: $pictures-gallery-title-color;
       font-size: $pictures-gallery-title-font-size;
