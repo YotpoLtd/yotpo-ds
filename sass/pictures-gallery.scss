@@ -108,6 +108,7 @@
     .yotpo-pictures-gallery-title-wrapper {
       .yotpo-pictures-gallery-title {
         font-size: $pictures-gallery-title-mobile-font-size;
+        line-height: $pictures-gallery-title-mobile-font-size;
       }
     }
   }
@@ -124,13 +125,16 @@
     margin-bottom: 10px;
     text-align: $pictures-gallery-title-alignment;
     position: relative;
+    padding-top: 130px;
     &.sorting-dropdown{
         min-height: 20px;
     }
     .yotpo-pictures-gallery-title {
       color: $pictures-gallery-title-color;
       font-size: $pictures-gallery-title-font-size;
-      line-height: 80px;
+      line-height: $pictures-gallery-title-font-size;
+      position: relative;
+      bottom: 30px;
     }
     .yotpo-nav-dropdown{
       right: 10px;
