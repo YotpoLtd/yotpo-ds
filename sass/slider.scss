@@ -10,6 +10,12 @@
       line-height: $slider-title-font-size;
     }
   }
+
+  .y-image-overlay {
+    background-color: $slider-hover-background-color;
+    border-radius: 3px;
+  }
+
   .yotpo-slider-wrapper{
     position: relative;
     margin: auto;
@@ -25,61 +31,26 @@
       font-size: 0;
       line-height: 0;
       position: relative;
-      .y-slider-image-container {
+      .yotpo-single-image-container {
         padding: 0;
         box-sizing: border-box;
         display: inline-block;
         max-height: 185px;
         max-width: 185px;
-        .y-slider-image {
+        .yotpo-image {
           border-radius: 3px;
           width: 100%;
           max-width:180px;
           max-height:180px;
         }
-        .y-slider-spacer {
-          padding-left: 5px;
-        }
-        .y-slider-image-wrapper {
+        .y-image-wrapper {
           position: relative;
           line-height: 0;
         }
-        .y-slider-image-overlay {
-          position: absolute;
-          z-index: 6;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-color: $slider-hover-background-color;
-          opacity: 0;
-          text-align: center;
-          border-radius: 3px;
-          cursor: pointer;
-          .slider-hover-icon {
-            display: inline-block;
-            vertical-align: middle;
-            .yotpo-icon-star, .yotpo-icon-empty-star {
-              font-size: 24px;
-              color: $white;
-            }
-            .yotpo-icon-insta {
-              font-size: 40px;
-              color: $white;
-            }
-          }
+        .y-image-overlay{
           &:hover {
             opacity: $slider-hover-opacity;
           }
-          &:hover .slider-hover-icon {
-            opacity: 1;
-          }
-        }
-        .y-slider-image-overlay:before {
-          content: '';
-          display: inline-block;
-          height: 100%;
-          vertical-align: middle;
         }
       }
     }
@@ -156,9 +127,9 @@
         }
       }
       .y-slider-container {
-        .y-slider-image-container {
-          .y-slider-image-overlay {
-            .slider-hover-icon {
+        .yotpo-single-image-container {
+          .y-image-overlay {
+            .yotpo-hover-icon {
               .yotpo-icon-star, .yotpo-icon-empty-star  {
                 font-size: 15px;
               }
@@ -167,9 +138,9 @@
         }
       }
       .y-slider-container {
-        .y-slider-image-container {
-          .y-slider-image-overlay {
-            .slider-hover-icon {
+        .yotpo-single-image-container {
+          .y-image-overlay {
+            .yotpo-hover-icon {
               .yotpo-icon-star, .yotpo-icon-empty-star  {
                 font-size: 15px;
               }

@@ -119,45 +119,8 @@
                   max-height: 656px;
                   border-radius: 3px;
                 }
-                .yotpo-image-loader:before,
-                .yotpo-image-loader:after,
                 .yotpo-image-loader {
-                  border-radius: 50%;
-                  width: 2.5em;
-                  height: 2.5em;
-                  -webkit-animation-fill-mode: both;
-                  animation-fill-mode: both;
-                  -webkit-animation: yotpo-image-loader 1.8s infinite ease-in-out;
-                  animation: yotpo-image-loader 1.8s infinite ease-in-out;
-                }
-                .yotpo-image-loader {
-                  font-size: 10px;
                   margin: -35px auto 0 auto;
-                  position: relative;
-                  text-indent: -9999em;
-                  -webkit-transform: translateZ(0);
-                  -ms-transform: translateZ(0);
-                  transform: translateZ(0);
-                  -webkit-animation-delay: -0.16s;
-                  animation-delay: -0.16s;
-                }
-                .yotpo-image-loader:before {
-                  left: -3.5em;
-                  -webkit-animation-delay: -0.32s;
-                  animation-delay: -0.32s;
-                }
-                .yotpo-image-loader:after {
-                  left: 3.5em;
-                }
-                .yotpo-image-loader:before,
-                .yotpo-image-loader:after {
-                  content: '';
-                  position: absolute;
-                  top: 0;
-                }
-                .yotpo-image-loader-wrapper {
-                  display: table-cell;
-                  vertical-align: middle;
                 }
                 @-webkit-keyframes yotpo-image-loader {
                   0%,
@@ -193,6 +156,8 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 32px 28px 22px;
+            word-break: break-all;
+            overflow: auto;
             .yotpo-review, .yotpo-instagram {
               .yotpo-read-more {
                 display: none;
@@ -218,6 +183,13 @@
                     }
                   }
                 }
+              }
+              .yotpo-instagram-username {
+                line-height: 22px;
+              }
+              .yotpo-review-date{
+                right: 1px;
+                top: 13px;
               }
             }
           }
@@ -304,8 +276,6 @@
             max-height: 700px;
             .yotpo-main {
               padding: 1px 0;
-              overflow-y: auto;
-              max-height: 514px;
             }
           }
         }
@@ -348,8 +318,6 @@
               .yotpo-review {
                 .yotpo-main {
                   padding: 1px 0;
-                  overflow-y: auto;
-                  max-height: 390px;
                 }
               }
 
@@ -399,8 +367,6 @@
               .yotpo-review {
                 .yotpo-main {
                   padding: 1px 0;
-                  overflow-y: auto;
-                  max-height: 277px;
                 }
               }
             }
@@ -434,8 +400,9 @@
             }
             .yotpo-gallery-content-container {
               position: inherit;
-              width: 445px;
+              width: 420px;
               right: 0;
+              display: table;
             }
           }
         }
@@ -468,6 +435,7 @@
             .yotpo-gallery-content-container {
               width: 275px;
               max-height: none;
+              display: table;
               .yotpo-review {
                 .yotpo-icon-profile {
                   display: none;
