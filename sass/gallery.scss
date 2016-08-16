@@ -244,26 +244,29 @@
 
     @media only screen and (max-width: 768px) {
       .yotpo-modal {
-        .yotpo-modal-container {
-          top: 5%;
-          margin: auto;
-          .yotpo-gallery-slider-container {
-            position: inherit;
-            border-radius: 3px 3px 0 0 !important;
-            .yotpo-icon-btn-small {
-              .yotpo-icon {
-                &.yotpo-icon-cross {
-                  right: 14px;
-                  color: white;
+        &.yotpo-modal-active {
+          .yotpo-modal-container {
+            top: 5%;
+            margin: auto;
+            .yotpo-gallery-slider-container {
+              position: inherit;
+              border-radius: 3px 3px 0 0 !important;
+              .yotpo-icon-btn-small {
+                .yotpo-icon {
+                  &.yotpo-icon-cross {
+                    right: 6px !important;
+                    top: 6px;
+                    color: white;
+                  }
                 }
               }
             }
-          }
-          .yotpo-gallery-content-container {
-            height: auto;
-            right: 0;
-            border-radius: 0 0 3px 3px !important;
-            position: inherit;
+            .yotpo-gallery-content-container {
+              height: auto;
+              right: 0;
+              border-radius: 0 0 3px 3px !important;
+              position: inherit;
+            }
           }
         }
       }
