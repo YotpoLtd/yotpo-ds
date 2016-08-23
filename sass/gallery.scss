@@ -420,7 +420,23 @@
       }
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 767px) {
+      .yotpo-modal {
+        &.yotpo-modal-active {
+          .yotpo-modal-container {
+            .yotpo-gallery-content-container {
+              position: inherit;
+              width: 445px;
+              right: 0;
+              display: table;
+            }
+          }
+        }
+      }
+    }
+
+
+      @media only screen and (max-width: 480px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
