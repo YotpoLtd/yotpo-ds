@@ -191,6 +191,10 @@
                 right: 1px;
                 top: 13px;
               }
+              .yopto-main.yotpo-regular-box{
+                overflow: auto;
+                height: 390px;
+              }
             }
             .yotpo-gallery-products-container{
               .yotpo-gallery-products-main{
@@ -238,16 +242,36 @@
     }
 
     @media only screen and (max-width: 1280px) {
-      .yotpo-modal {
-        .yotpo-review {
-          .yotpo-main {
-            margin-left: 0;
-            .content-review {
-              font-size: 13px;
+      .yotpo-modal.yotpo-modal-active {
+        .yotpo-modal-container{
+          .yotpo-gallery-content-container {
+            .yotpo-review, .yotpo-instagram {
+              .yopto-main.yotpo-regular-box {
+                height: 280px;
+              }
+            }
+            .yotpo-gallery-products-container {
+              .yotpo-gallery-products-main {
+                .yotpo-gallery-product {
+                  .yotpo-gallery-product-name {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  }
+                }
+              }
             }
           }
-          .yotpo-footer {
-            margin-left: 0;
+          .yotpo-review {
+            .yotpo-main {
+              margin-left: 0;
+              .content-review {
+                font-size: 13px;
+              }
+            }
+            .yotpo-footer {
+              margin-left: 0;
+            }
           }
         }
       }
@@ -271,6 +295,12 @@
             }
           }
           .yotpo-gallery-content-container {
+              .yotpo-review, .yotpo-instagram {
+                .yopto-main.yotpo-regular-box {
+                  height: initial !important;
+                }
+              }
+
             height: initial !important;
             right: 0;
             border-radius: 0 0 3px 3px !important;
@@ -373,6 +403,11 @@
               }
             }
             .yotpo-gallery-content-container {
+              .yotpo-review, .yotpo-instagram {
+                .yopto-main.yotpo-regular-box {
+                  height: 170px;
+                }
+              }
               width: 368px;
               max-height: 420px;
               .yotpo-review {
