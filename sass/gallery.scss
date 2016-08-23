@@ -192,6 +192,17 @@
                 top: 13px;
               }
             }
+            .yotpo-gallery-products-container{
+              .yotpo-gallery-products-main{
+                .yotpo-gallery-product{
+                  .yotpo-gallery-product-name{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                  }
+                }
+              }
+            }
           }
           .yotpo-label {
             .yotpo-logo-bg-white {
@@ -448,6 +459,41 @@
     }
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .yotpo-gallery-products-container{
+    .yotpo-gallery-products-main{
+      .yotpo-gallery-product{
+        .yotpo-gallery-product-name{
+          max-width: 250px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .yotpo-gallery-products-container{
+    .yotpo-gallery-products-main{
+      .yotpo-gallery-product{
+        .yotpo-gallery-product-name{
+          max-width: 220px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .yotpo-gallery-products-container{
+    .yotpo-gallery-products-main{
+      .yotpo-gallery-product{
+        .yotpo-gallery-product-name{
+          max-width: 130px;
+        }
+      }
+    }
+  }
+}
+
 
 #yotpo-testimonials {
   .yotpo {
