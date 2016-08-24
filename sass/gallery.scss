@@ -443,6 +443,12 @@
                   }
                 }
               }
+              .yotpo-icon-btn-small {
+                .yotpo-icon.yotpo-icon-cross{
+                  right: 12px;
+                  top:22px;
+                }
+              }
             }
             .yotpo-gallery-content-container {
               position: inherit;
@@ -464,6 +470,14 @@
               width: 445px;
               right: 0;
               display: table;
+            }
+            .yotpo-gallery-slider-container {
+              .yotpo-icon-btn-small {
+                .yotpo-icon.yotpo-icon-cross{
+                  right: 12px;
+                  top: 12px;
+                }
+              }
             }
           }
         }
