@@ -205,13 +205,64 @@
               }
             }
             .yotpo-gallery-products-container{
-              .yotpo-gallery-products-main{
-                .yotpo-gallery-product{
-                  .yotpo-gallery-product-name{
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                  }
+             border-bottom: 1px solid $gray-light;
+              margin: -10px -32px 20px -22px;
+              padding-left: 22px;
+              padding-bottom: 20px;
+
+              .yotpo-gallery-product-main-image{
+                border-radius: 3px;
+                border: 1px solid $gray-light;
+                height: 100px;
+                width: 100px;
+                object-fit: cover;
+              }
+              .yotpo-gallery-product-name{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                position: absolute;
+                display: initial;
+                margin-top: 15px;
+                margin-left: 15px;
+                color: $gray-darker;
+              }
+              .yotpo-gallery-product-button{
+                position: absolute;
+                margin-top: 50px;
+                margin-left: 15px;
+                color: $white;
+                background-color: $pictures-gallery-cta-color;
+                border-radius: 3px;
+                padding: 7px 30px;
+                border: none;
+                font-weight: bold;
+                min-width: 110px;
+                min-height: 36px;
+              }
+              .yotpo-gallery-products-footer{
+                margin-top: 10px;
+              }
+              .yotpo-gallery-products-select{
+                text-align: left;
+                margin-top: 10px;
+              }
+              .yotpo-gallery-product-select-image{
+                display: inline-block;
+                cursor: pointer;
+                border-radius: 3px;
+                border: 1px solid $gray-light;
+                margin-right: 1px;
+                height: 40px;
+                width: 40px;
+              }
+              .yotpo-gallery-product-selected {
+                border-color: $green;
+              }
+              @media only screen and (max-width: 480px) {
+                .yotpo-gallery-product-button {
+                  padding: 7px 7px;
+                  font-size: (22 - $pictures-gallery-cta-text-length) + px;
                 }
               }
             }
