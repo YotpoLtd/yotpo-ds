@@ -485,6 +485,11 @@
                   padding: 1px 0;
                 }
               }
+              .yotpo-gallery-products-container {
+                .yotpo-gallery-product-button {
+                  font-size: (26 - $pictures-gallery-cta-text-length) + px;
+                }
+              }
             }
           }
         }
