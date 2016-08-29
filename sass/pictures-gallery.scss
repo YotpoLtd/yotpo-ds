@@ -1,4 +1,11 @@
 .yotpo-pictures-gallery {
+  .yotpo-default-button {
+    margin: 30px auto 30px auto;
+    display: table;
+    span {
+      color: #fff;
+    }
+  }
   .yotpo-image-loader {
     color: #e3e3e3;
     margin: auto;
