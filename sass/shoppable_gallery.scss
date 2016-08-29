@@ -1,4 +1,10 @@
 .yotpo-shoppable-gallery {
+
+  .yotpo-display-wrapper{
+    max-width: 768px;
+    margin: auto;
+  }
+
   .yotpo-image-loader {
     color: #e3e3e3;
     margin: auto;
@@ -6,15 +12,73 @@
     margin-bottom: 90px;
   }
 
+  .seperator {
+    border: #efefef 1px solid;
+    margin: 0;
+  }
+
   .yotpo-single-image-container {
     width: calc(100% / 3);
     width: calc(100% / 3);
   }
 
-  .yotpo-shoppable-gallery-title-wrapper {
+  .yotpo-shoppable-gallery-header-wrapper {
+    position: relative;
+    margin-bottom: 9px;
+    .store-image{
+      width: 38px;
+      height: 38px;
+    }
+
     .yotpo-shoppable-gallery-title {
+      font-family: Arial;
+      color:  #0a5184;
       font-size: 14px;
-      line-height: 1px;
+      font-weight: 700;
+      letter-spacing: 0.14px;
+      line-height: 44.619px;
+      text-align: left;
+      transform: scaleX(1.0083);/* width and height properties ommitted due to transform */
+      margin-left: 5px;
+    }
+
+    .yotpo-shoppable-gallery-header-reviews-wrapper {
+      right: 16px;
+      position: absolute;
+      top: 3px;
+      .yotpo-shoppable-gallery-header-reviews-stars{
+        .yotpo-icon.yotpo-icon-star {
+          color: #ffd200;
+        }
+      }
+
+      .yotpo-shoppable-gallery-header-reviews {
+        float: right;
+        clear: right;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    .yotpo-icon.yotpo-icon-left-arrow-thin {
+      margin-left: 10px;
+    }
+
+  }
+
+  .yotpo-shoppable-gallery-product-header-wrapper{
+    height: 45px;
+    background-color: #f6f7f7;
+    .yotpo-shoppable-gallery-product-header-title{
+      margin-left: 10px;
+      font-family: Arial;
+      color:  #888888;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.14px;
+      line-height: 44.619px;
+      text-align: left;
+      transform: scaleX(1.0083);/* width and height properties ommitted due to transform */
     }
   }
 
@@ -30,7 +94,7 @@
     margin-bottom: 10px;
     text-align: 1px;
     position: relative;
-    padding-top: 130px;
+    height: 30px;
     &.sorting-dropdown{
       min-height: 20px;
     }
@@ -40,6 +104,8 @@
       line-height: 1px;
       position: relative;
       bottom: 30px;
+      text-align: center;
+      width: 100%;
     }
     .yotpo-nav-dropdown{
       right: 10px;
@@ -56,14 +122,14 @@
     color: #888888;
   }
   .yotpo-shoppable-gallery-wrapper {
-    max-width: 768px;
+    //max-width: 768px;
     overflow: hidden;
     text-align: left;
     margin: auto;
   }
 
   .yotpo-shoppable-gallery-images-wrapper {
-    max-width: 768px;
+    //max-width: 768px;
     margin: 0 auto;
   }
 
