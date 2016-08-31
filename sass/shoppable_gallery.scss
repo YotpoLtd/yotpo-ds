@@ -25,9 +25,10 @@
   .yotpo-shoppable-gallery-header-wrapper {
     position: relative;
     margin-bottom: 9px;
-    .store-image{
+    .shop-image{
       width: 38px;
       height: 38px;
+      border-radius: 50%;
     }
 
     .yotpo-shoppable-gallery-title {
@@ -45,7 +46,7 @@
     .yotpo-shoppable-gallery-header-reviews-wrapper {
       right: 16px;
       position: absolute;
-      top: 3px;
+      top: 9px;
       .yotpo-shoppable-gallery-header-reviews-stars{
         .yotpo-icon.yotpo-icon-star {
           color: #ffd200;
@@ -62,6 +63,7 @@
 
     .yotpo-icon.yotpo-icon-left-arrow-thin {
       margin-left: 10px;
+      cursor: pointer;
     }
 
   }
