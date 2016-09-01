@@ -163,6 +163,18 @@
                 overflow: auto;
                 max-height: 384px;
               }
+              .yopto-main.yotpo-regular-box.yotpo-tagged{
+                overflow: auto;
+                max-height: 303px;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-loc{
+                overflow: auto;
+                max-height: 367px;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc{
+                overflow: auto;
+                max-height: 287px;
+              }
               .yotpo-helpful{
                 margin-top: 10px;
               }
@@ -180,9 +192,13 @@
               }
             }
             .yotpo-instagram {
+              .yopto-main.yotpo-regular-box.yotpo-loc{
+                overflow: auto;
+                max-height: 501px;
+              }
               .yopto-main.yotpo-regular-box{
                 overflow: auto;
-                max-height: 500px;
+                max-height: 518px;
               }
               .yotpo-helpful{
                 margin-top: 10px;
@@ -326,9 +342,21 @@
               .yopto-main.yotpo-regular-box {
                 max-height: 258px;
               }
+              .yopto-main.yotpo-regular-box.yotpo-loc {
+                max-height: 241px;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-tagged {
+                max-height: 178px;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
+                max-height: 161px;
+              }
             }
             .yotpo-review, .yotpo-instagram {
               .yopto-main.yotpo-regular-box {
+                max-height: 392px;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-loc {
                 max-height: 375px;
               }
             }
@@ -480,6 +508,15 @@
                 .yopto-main.yotpo-regular-box {
                   max-height: 148px;
                 }
+                .yopto-main.yotpo-regular-box.yotpo-loc {
+                  max-height: 131px;
+                }
+                .yopto-main.yotpo-regular-box.yotpo-tagged {
+                  max-height: 68px;
+                }
+                .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
+                  max-height: 51px;
+                }
               }
               .yotpo-gallery-products-container + .yotpo-review {
                 .yotpo-main{
@@ -489,6 +526,9 @@
               }
               .yotpo-review, .yotpo-instagram {
                 .yopto-main.yotpo-regular-box {
+                  max-height: 282px;
+                }
+                .yopto-main.yotpo-regular-box.yotpo-loc {
                   max-height: 265px;
                 }
                 .yotpo-main{
@@ -537,6 +577,18 @@
           .yotpo-gallery-content-container {
             .yotpo-review, .yotpo-instagram, .yotpo-gallery-products-container+.yotpo-review, .yotpo-gallery-products-container+.yotpo-instagram {
               .yopto-main.yotpo-regular-box {
+                max-height: initial;
+                height: initial;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-loc {
+                max-height: initial;
+                height: initial;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-tagged {
+                max-height: initial;
+                height: initial;
+              }
+              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
                 max-height: initial;
                 height: initial;
               }
