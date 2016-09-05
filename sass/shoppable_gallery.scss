@@ -226,4 +226,81 @@
       }
     }
   }
+
+  .yotpo-shoppable-single-image-wrapper{
+    max-width: 768px;
+    margin: auto;
+    padding-top: 120px;
+    border: 1px solid gray;
+      .yotpo-shoppable-header {
+        height: 80px;
+        position: relative;
+        padding: 10px;
+        .yotpo-icon.yotpo-icon-left-arrow-thin {
+          margin-left: 10px;
+          cursor: pointer;
+        }
+      }
+      .yotpo-shoppable-title {
+        height: 80px;
+        background: #F7F7F7;
+        position: relative;
+        padding: 2.5%;
+        .yotpo-shoppable-product-image {
+          width: 38px;
+          height: 38px;
+          border: 1px solid gray;
+          border-radius: 50%;
+          margin: auto;
+        }
+        .yotpo-shoppable-product-button{
+          font-family: Arial;
+          color:  #71b1ff;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: 0.12px;
+          text-align: center;
+          margin: auto;
+          border: 1px solid;
+          border-radius: 10%;
+          height: 40px;
+          width: 120px;
+          background: white;
+        }
+      }
+    .yotpo-shoppable-tagged-products{
+      .yotpo-tagged-product{
+        float: left;
+        padding: 30px;
+        text-align: center;
+        .yotpo-tagged-product-image {
+          height: 135px;
+          weight: 135px;
+          object-fit: contain;
+        }
+        .yotpo-shoppable-product-button{
+          font-family: Arial;
+          color:  #71b1ff;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: 0.12px;
+          text-align: center;
+          margin: auto;
+          border: 1px solid;
+          border-radius: 10%;
+          height: 40px;
+          width: 120px;
+          background: white;
+        }
+      }
+    }
+  }
+}
+.yotpo-shoppable-gallery.yotpo-size-7, .yotpo-shoppable-gallery.yotpo-size-6, .yotpo-shoppable-gallery.yotpo-size-5{
+  .yotpo-shoppable-single-image-wrapper {
+    .yotpo-shoppable-image {
+      height: 768px;
+      width: 768px;
+    }
+  }
 }
