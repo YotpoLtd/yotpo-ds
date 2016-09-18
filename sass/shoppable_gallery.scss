@@ -31,6 +31,9 @@
       border-radius: 50%;
       vertical-align: middle;
       border: 1px solid #eaeaea;
+      display: inline-block;
+      float:left;
+      margin: 0px 5px;
     }
 
     .yotpo-shoppable-gallery-title {
@@ -43,6 +46,12 @@
       text-align: left;
       transform: scaleX(1.0083);/* width and height properties ommitted due to transform */
       margin-left: 5px;
+      display: inline-block;
+      float:left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 580px;
     }
 
     .shop-details-wrapper {
@@ -72,8 +81,10 @@
     .yotpo-icon.yotpo-icon-left-arrow-thin {
       margin-left: 10px;
       cursor: pointer;
+      display: inline-block;
+      float: left;
+      margin-top: 10px;
     }
-
   }
 
   .yotpo-shoppable-gallery-product-header-wrapper{
@@ -233,6 +244,38 @@
       .yotpo-gallery-product-button {
         padding: 7px 30px;
       }
+    }
+  }
+}
+
+.yotpo-shoppable-gallery.yotpo-size-4{
+  .yotpo-shoppable-gallery-header-wrapper {
+    .yotpo-shoppable-gallery-title {
+      max-width: 410px;
+    }
+  }
+}
+
+.yotpo-shoppable-gallery.yotpo-size-3{
+  .yotpo-shoppable-gallery-header-wrapper {
+    .yotpo-shoppable-gallery-title {
+      max-width: 295px;
+    }
+  }
+}
+
+.yotpo-shoppable-gallery.yotpo-size-2{
+  .yotpo-shoppable-gallery-header-wrapper {
+    .yotpo-shoppable-gallery-title {
+      max-width: 135px;
+    }
+  }
+}
+
+.yotpo-shoppable-gallery.yotpo-size-1 {
+  .yotpo-shoppable-gallery-header-wrapper {
+    .yotpo-shoppable-gallery-title {
+      max-width: 115px;
     }
   }
 }
