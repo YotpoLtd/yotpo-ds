@@ -64,7 +64,7 @@
       margin-top: 12px;
       .yotpo-shoppable-gallery-header-reviews-stars{
         .yotpo-icon.yotpo-icon-star {
-          color: #ffd200;
+          color: $shoppable-star-rating-color;
         }
       }
 
@@ -159,6 +159,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    background-color: #e1e1e1;
   }
   .yotpo-single-image-container {
     border-image-width:0;
@@ -292,8 +293,8 @@
         }
         .yotpo-shoppable-product-button {
           font-family: Arial;
-          color: #71b1ff;
-          font-size: 16px;
+          color: $shoppable-cta-color;
+          font-size: 11px;
           font-weight: 600;
           letter-spacing: 0.12px;
           text-align: center;
@@ -303,6 +304,9 @@
           height: 40px;
           width: 140px;
           background: white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
       }
       .yotpo-shoppable-image-container {
@@ -366,13 +370,13 @@
               padding-bottom: 10px;
               transform: scaleX(1.0083);
               .yotpo-icon.yotpo-icon-star{
-                color: #ffd200;
+                color: $shoppable-star-rating-color;
               }
             }
             .yotpo-shoppable-product-button {
               font-family: Arial;
-              color: #71b1ff;
-              font-size: 15px;
+              color: $shoppable-cta-color;
+              font-size: 11px;
               font-weight: 600;
               letter-spacing: 0.12px;
               text-align: center;
@@ -503,10 +507,10 @@
         }
         .yotpo-shoppable-product-name {
           margin-top: 10px;
-          max-width: 120px;
+          max-width: 100px;
         }
         .yotpo-shoppable-product-button {
-          max-width: 120px;
+          max-width: 100px;
         }
       }
       .yotpo-shoppable-stats {
@@ -561,7 +565,7 @@
           max-width: 85px;
         }
         .yotpo-shoppable-product-button {
-          max-width: 120px;
+          max-width: 100px;
         }
       }
       .yotpo-shoppable-stats {
