@@ -294,7 +294,7 @@
         .yotpo-shoppable-product-button {
           font-family: Arial;
           color: $shoppable-cta-color;
-          font-size: 16px;
+          font-size: 13px;
           font-weight: 600;
           letter-spacing: 0.12px;
           text-align: center;
@@ -304,6 +304,9 @@
           height: 40px;
           width: 140px;
           background: white;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
       }
       .yotpo-shoppable-image-container {
@@ -373,7 +376,7 @@
             .yotpo-shoppable-product-button {
               font-family: Arial;
               color: $shoppable-cta-color;
-              font-size: 15px;
+              font-size: 11px;
               font-weight: 600;
               letter-spacing: 0.12px;
               text-align: center;
