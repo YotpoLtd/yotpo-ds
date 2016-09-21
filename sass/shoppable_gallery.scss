@@ -349,15 +349,12 @@
           overflow: hidden;
           margin: auto;
           width: 100%;
-          padding-bottom: 20px;
-          max-height: 285px;
           display: inline-flex;
           .yotpo-tagged-product {
             float: left;
             padding: 10px;
             text-align: center;
             background: white;
-            margin: 5px 4px;
             border-radius: 5px;
             border: 1px solid #e1e1e1;
             .yotpo-tagged-product-image {
@@ -434,13 +431,13 @@
       .yotpo-shoppable-tagged-products-title {
         font-family: Arial;
         color: #888888;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.13px;
         line-height: 44.619px;
         text-align: left;
         transform: scaleX(1.0083);
-        margin-left: 20px;
+        margin-left: 10px;
       }
     }
   }
