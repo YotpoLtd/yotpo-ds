@@ -396,6 +396,8 @@
         }
       }
       .yotpo-shoppable-stats {
+        -webkit-transition: opacity 1s;
+        transition: opacity 1s;
         height: 60px;
         padding: 2.5%;
         .yotpo-shoppable-likes, .yotpo-shoppable-sales, .yotpo-shoppable-likes-count, .yotpo-shoppable-sales-count {
