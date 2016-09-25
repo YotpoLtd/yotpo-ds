@@ -271,7 +271,7 @@
         position: relative;
         padding: 2%;
         .yotpo-shoppable-product-image {
-          width: 50px;
+          width: $shoppable-product-image-width;
           height: 50px;
           border-radius: 25px;
           margin: auto;
@@ -284,9 +284,9 @@
           font-weight: 600;
           letter-spacing: 0.12px;
           transform: scaleX(1.0083);
-          margin: 16px 16px;
+          margin: 16px $shoppable-product-name-margin;
           float: left;
-          max-width: 440px;
+          width: calc(100% - #{$shoppable-product-image-width} - #{$shoppable-cta-button-width} - #{$shoppable-product-name-margin}*2);
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
@@ -302,7 +302,7 @@
           border: 1px solid;
           border-radius: 5px;
           height: 40px;
-          width: 140px;
+          width: $shoppable-cta-button-width;
           background: white;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -384,8 +384,7 @@
               border: 1px solid;
               border-radius: 5px;
               height: 35px;
-              max-width: 170px;
-              min-width: 120px;
+              width: $shoppable-cta-button-width;
               background: white;
               overflow: hidden;
               text-overflow: ellipsis;
@@ -438,9 +437,6 @@
         .yotpo-shoppable-product-button {
           margin-top: 3px;
         }
-        .yotpo-shoppable-product-name {
-          max-width: 350px;
-        }
       }
       .yotpo-shoppable-stats {
         .yotpo-shoppable-likes, .yotpo-shoppable-sales, .yotpo-shoppable-likes-count, .yotpo-shoppable-sales-count {
@@ -469,7 +465,6 @@
       .yotpo-shoppable-title {
         .yotpo-shoppable-product-name {
           margin-top: 15px;
-          max-width: 240px;
         }
         .yotpo-shoppable-product-button {
           margin-top: 3px;
@@ -502,15 +497,12 @@
       .yotpo-shoppable-title {
         padding: 4%;
         .yotpo-shoppable-product-image {
-          width: 38px;
+          width: $shoppable-product-image-width-mobile;
           height: 38px;
         }
         .yotpo-shoppable-product-name {
           margin-top: 10px;
-          max-width: 100px;
-        }
-        .yotpo-shoppable-product-button {
-          max-width: 100px;
+          width: calc(100% - #{$shoppable-product-image-width-mobile} - #{$shoppable-cta-button-width} - #{$shoppable-product-name-margin}*2);
         }
       }
       .yotpo-shoppable-stats {
@@ -557,15 +549,12 @@
       .yotpo-shoppable-title {
         padding: 4%;
         .yotpo-shoppable-product-image {
-          width: 38px;
+          width: $shoppable-product-image-width-mobile;
           height: 38px;
         }
         .yotpo-shoppable-product-name {
           margin-top: 10px;
-          max-width: 85px;
-        }
-        .yotpo-shoppable-product-button {
-          max-width: 100px;
+          width: calc(100% - #{$shoppable-product-image-width-mobile} - #{$shoppable-cta-button-width} - #{$shoppable-product-name-margin}*2);
         }
       }
       .yotpo-shoppable-stats {
