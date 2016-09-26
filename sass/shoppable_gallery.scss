@@ -437,7 +437,7 @@
         line-height: 44.619px;
         text-align: left;
         transform: scaleX(1.0083);
-        margin-left: 10px;
+        padding-left: 2.5%;
       }
     }
   }
@@ -542,9 +542,6 @@
             .yotpo-tagged-product-name {
               max-width: 120px;
             }
-            .yotpo-shoppable-product-button {
-              max-width: 120px;
-            }
           }
         }
       }
@@ -595,7 +592,7 @@
               max-width: 120px;
             }
             .yotpo-shoppable-product-button {
-              max-width: 120px;
+              width: 100px;
             }
           }
         }
