@@ -376,6 +376,10 @@
               text-overflow: ellipsis;
               white-space: nowrap;
             }
+            .yotpo-tagged-product-reviews-count {
+              font-size: 12px;
+              margin-left: 3px;
+            }
             .yotpo-shoppable-gallery-header-reviews-stars {
               padding-bottom: 10px;
               transform: scaleX(1.0083);
@@ -407,6 +411,7 @@
       .yotpo-shoppable-stats {
         -webkit-transition: opacity 1s;
         transition: opacity 1s;
+        opacity: 0;
         height: 60px;
         padding: 2.5%;
         .yotpo-shoppable-likes, .yotpo-shoppable-sales, .yotpo-shoppable-likes-count, .yotpo-shoppable-sales-count {
