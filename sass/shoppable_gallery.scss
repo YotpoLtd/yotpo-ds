@@ -126,8 +126,10 @@
   .y-image-overlay {
     background-color: white;
     border-radius: 1px;
-    &:hover {
-      opacity: 0.5;
+    @media (min-width: 768px) {
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
 
