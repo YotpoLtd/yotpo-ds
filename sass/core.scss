@@ -2031,6 +2031,29 @@
           font-size: 30px;
         }
       }
+      .yotpo-logo-line {
+        overflow: hidden;
+        border-bottom: 1px solid $gray-light;
+        position: relative;
+        top: 25px;
+        display: none;
+      }
+    }
+
+    .yotpo-label-border{
+      .yotpo-bottomline{
+        border-top: none;
+      }
+    }
+    .yotpo-label-border{
+      .yotpo-logo-line {
+        display: block;
+      }
+    }
+    .yotpo-label-border{
+      .yotpo-label{
+        border-bottom: none;
+      }
     }
 
     .logo-not-clickable-container {
