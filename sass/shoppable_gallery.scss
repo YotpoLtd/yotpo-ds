@@ -184,6 +184,10 @@
     margin: auto;
     width: 100%;
     background-color: #f6f7f7;
+    &.yotpo-relative-wrapper {
+      position: relative;
+      top: 52px;
+    }
   }
 
   .yotpo-shoppable-gallery-images-wrapper {
@@ -290,6 +294,10 @@
     .yotpo-shoppable-single-view-container {
       max-width: 768px;
       margin: auto;
+      &.yotpo-relative-wrapper {
+        position: relative;
+        top: 52px;
+      }
       .yotpo-shoppable-title {
         height: 70px;
         position: relative;
@@ -601,8 +609,8 @@
         .yotpo-tagged-products-elements {
           .yotpo-tagged-product {
             .yotpo-tagged-product-image {
-              height: 120px;
-              width: 120px;
+              height: 100px;
+              width: 100px;
             }
             .yotpo-tagged-product-name {
               max-width: 120px;
