@@ -28,7 +28,7 @@
   .yotpo-image-loader {
     color: #e3e3e3;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 90px;
   }
 
@@ -121,6 +121,7 @@
       float: left;
       margin-top: 13px;
       margin-left: 5px;
+      cursor: pointer;
     }
   }
 
@@ -291,13 +292,13 @@
 
   .yotpo-shoppable-single-image-wrapper {
     background: #f6f7f7;
+    &.yotpo-relative-wrapper {
+      position: relative;
+      top: 52px;
+    }
     .yotpo-shoppable-single-view-container {
       max-width: 768px;
       margin: auto;
-      &.yotpo-relative-wrapper {
-        position: relative;
-        top: 52px;
-      }
       .yotpo-shoppable-title {
         height: 70px;
         position: relative;
@@ -326,6 +327,7 @@
         .yotpo-shoppable-product-button {
           font-family: Arial;
           color: $shoppable-cta-color;
+          cursor: pointer;
           font-size: 11px;
           font-weight: 600;
           letter-spacing: 0.12px;
@@ -410,6 +412,7 @@
             .yotpo-shoppable-product-button {
               font-family: Arial;
               color: $shoppable-cta-color;
+              cursor: pointer;
               font-size: 11px;
               font-weight: 600;
               letter-spacing: 0.12px;
