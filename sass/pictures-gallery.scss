@@ -37,7 +37,7 @@
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 30px)/7);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(7n)  {
           margin-right: 0;
@@ -46,13 +46,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 7);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-6 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 25px)/6);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(6n)  {
           margin-right: 0;
@@ -62,13 +63,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 6);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-5 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 20px)/5);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(5n)  {
           margin-right: 0;
@@ -78,13 +80,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 5);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-4 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 15px)/4);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(4n)  {
           margin-right: 0;
@@ -94,13 +97,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 4);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 10px)/3);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(3n)  {
           margin-right: 0;
@@ -110,6 +114,7 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 3);
+      margin-right: -0.01px;
     }
 
     .yotpo-pictures-gallery-title-wrapper {
