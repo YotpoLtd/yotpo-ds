@@ -366,27 +366,27 @@
           }
         }
       }
-      .yotpo-shoppable-tagged-products {
+      .yotpo-shoppable-tagged-products-container {
         border-top: 1px solid;
         border-color:  #E0E0E0;
-        .yotpo-tagged-products-elements {
+        .yotpo-shoppable-products-elements {
           overflow: hidden;
           margin: auto;
           width: 100%;
           display: inline-flex;
-          .yotpo-tagged-product {
+          .yotpo-shoppable-product {
             float: left;
             padding: 10px;
             text-align: center;
             background: white;
             border-radius: 5px;
             border: 1px solid #e1e1e1;
-            .yotpo-tagged-product-image {
+            .yotpo-shoppable-product-image {
               height: 128px;
               width: 128px;
               object-fit: contain;
             }
-            .yotpo-tagged-product-name {
+            .yotpo-shoppable-product-name {
               max-width: 128px;
               padding-top: 10px;
               padding-bottom: 5px;
@@ -400,7 +400,7 @@
               text-overflow: ellipsis;
               white-space: nowrap;
             }
-            .yotpo-tagged-product-reviews-count {
+            .yotpo-shoppable-product-reviews-count {
               font-size: 12px;
               margin-left: 3px;
             }
@@ -562,14 +562,14 @@
           margin-top: 7px;
         }
       }
-      .yotpo-shoppable-tagged-products{
-        .yotpo-tagged-products-elements{
-          .yotpo-tagged-product{
-            .yotpo-tagged-product-image{
+      .yotpo-shoppable-tagged-products-container{
+        .yotpo-shoppable-products-elements{
+          .yotpo-shoppable-product{
+            .yotpo-shoppable-product-image{
               height: 120px;
               width: 120px;
             }
-            .yotpo-tagged-product-name {
+            .yotpo-shoppable-product-name {
               max-width: 120px;
             }
           }
@@ -611,14 +611,14 @@
           margin-top: 10px;
         }
       }
-      .yotpo-shoppable-tagged-products {
-        .yotpo-tagged-products-elements {
-          .yotpo-tagged-product {
-            .yotpo-tagged-product-image {
+      .yotpo-shoppable-tagged-products-container {
+        .yotpo-shoppable-products-elements {
+          .yotpo-shoppable-product {
+            .yotpo-shoppable-product-image {
               height: 100px;
               width: 100px;
             }
-            .yotpo-tagged-product-name {
+            .yotpo-shoppable-product-name {
               max-width: 120px;
             }
             .yotpo-shoppable-product-button {
