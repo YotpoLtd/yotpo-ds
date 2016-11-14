@@ -1593,6 +1593,16 @@
         }
       }
 
+      .yotpo-grouping-reference {
+        margin-top: 10px;
+        label {
+          float: #{$left};
+          &.yotpo-attribution-indicator {
+            margin-#{$right}: 10px;
+          }
+        }
+      }
+
       &.yotpo-show-more {
         padding-top: 25px;
         label {
@@ -1773,6 +1783,15 @@
           margin-#{$left}: 10px;
           height: 22px;
           width: 52px;
+        }
+      }
+      .yotpo-grouping-reference {
+        margin-top: 10px;
+        label {
+          float: #{$left};
+          &.yotpo-attribution-indicator {
+            margin-#{$right}: 10px;
+          }
         }
       }
       &.yotpo-show-more {
