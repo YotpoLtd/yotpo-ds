@@ -1438,6 +1438,10 @@
       .content-review {
         display: inline;
         color: $gray-darker;
+        word-break: break-all;
+      }
+      .content-question {
+        word-break: break-all;
       }
       .yotpo-review-images-wrapper {
         float: $left;
