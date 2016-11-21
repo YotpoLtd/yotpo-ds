@@ -374,6 +374,19 @@
           margin: auto;
           width: 100%;
           display: inline-flex;
+          .yotpo-shoppable-separator {
+            margin-left: 16px;
+          }
+          .yotpo-shoppable-separator:before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -12px;
+            bottom: 0;
+            width: 1px;
+            height: 100%;
+            background: #e0e0e0;
+          }
           .yotpo-shoppable-product {
             float: left;
             padding: 10px;
