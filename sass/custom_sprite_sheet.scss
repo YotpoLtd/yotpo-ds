@@ -1,5 +1,5 @@
 // Should include all widgets but badge.
-.yotpo.yotpo-main-widget, .yotpo.embedded-widget, .yotpo.yotpo-modal, .yotpo.bottomLine {
+.yotpo.yotpo-main-widget, .yotpo.embedded-widget, .yotpo.yotpo-modal, .yotpo.bottomLine, .yotpo.yotpo-reviews-carousel {
   .yotpo-header .yotpo-icon-profile,
   .yotpo-icon-star,
   .yotpo-icon-half-star,
@@ -99,6 +99,7 @@
 
   .yotpo-review .yotpo-review-stars,
   .yotpo-comment .yotpo-review-stars,
+  .carousel-reviews-bottom-line .yotpo-review-stars,
   .standalone-bottomline,
   .yotpo-modal-bottom-line .yotpo-bottomline,
   .yotpo-promoted-product .yotpo-review-stars {
