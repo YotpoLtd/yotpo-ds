@@ -158,52 +158,6 @@
             padding: 28px 32px 28px 22px;
             word-break: break-all;
             overflow: auto;
-            .yotpo-gallery-products-container + .yotpo-instagram {
-              .yopto-main.yotpo-regular-box{
-                overflow: auto;
-                max-height: 384px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged{
-                overflow: auto;
-                max-height: 303px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-loc{
-                overflow: auto;
-                max-height: 367px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc{
-                overflow: auto;
-                max-height: 287px;
-              }
-              .yotpo-helpful{
-                margin-top: 10px;
-              }
-            }
-            .yotpo-gallery-products-container + .yotpo-review {
-              .yotpo-main{
-                overflow: auto;
-                max-height: 380px;
-              }
-            }
-            .yotpo-review {
-              .yotpo-main{
-                overflow: auto;
-                max-height: 514px;
-              }
-            }
-            .yotpo-instagram {
-              .yopto-main.yotpo-regular-box.yotpo-loc{
-                overflow: auto;
-                max-height: 501px;
-              }
-              .yopto-main.yotpo-regular-box{
-                overflow: auto;
-                max-height: 518px;
-              }
-              .yotpo-helpful{
-                margin-top: 10px;
-              }
-            }
             .yotpo-review, .yotpo-instagram {
               .yotpo-read-more {
                 display: none;
@@ -236,68 +190,6 @@
               .yotpo-review-date{
                 right: 1px;
                 top: 13px;
-              }
-            }
-            .yotpo-gallery-products-container{
-             border-bottom: 1px solid $gray-light;
-              margin: -10px -32px 20px -22px;
-              padding-left: 22px;
-              padding-bottom: 20px;
-
-              .yotpo-gallery-product-main-image{
-                border-radius: 3px;
-                border: 1px solid $gray-light;
-                height: 100px;
-                width: 100px;
-                object-fit: cover;
-              }
-              .yotpo-gallery-product-name{
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                position: absolute;
-                display: initial;
-                margin-top: 15px;
-                margin-left: 15px;
-                color: $gray-darker;
-              }
-              .yotpo-gallery-product-button{
-                position: absolute;
-                margin-top: 50px;
-                margin-left: 15px;
-                color: $white;
-                background-color: $pictures-gallery-cta-color;
-                border-radius: 3px;
-                padding: 7px 30px;
-                border: none;
-                font-weight: bold;
-                min-width: 110px;
-                min-height: 36px;
-              }
-              .yotpo-gallery-products-footer{
-                margin-top: 10px;
-              }
-              .yotpo-gallery-products-select{
-                text-align: left;
-                margin-top: 10px;
-              }
-              .yotpo-gallery-product-select-image{
-                display: inline-block;
-                cursor: pointer;
-                border-radius: 3px;
-                border: 1px solid $gray-light;
-                margin-right: 1px;
-                height: 40px;
-                width: 40px;
-              }
-              .yotpo-gallery-product-selected {
-                border-color: $green;
-              }
-              @media only screen and (max-width: 480px) {
-                .yotpo-gallery-product-button {
-                  padding: 7px 7px;
-                  font-size: (22 - $pictures-gallery-cta-text-length) + px;
-                }
               }
             }
           }
@@ -334,54 +226,44 @@
       }
     }
 
-    @media only screen and (max-width: 1280px){
-      .yotpo-modal.yotpo-modal-active {
-        .yotpo-modal-container{
-          .yotpo-gallery-content-container {
-            .yotpo-gallery-products-container+.yotpo-review, .yotpo-gallery-products-container+.yotpo-instagram  {
-              .yopto-main.yotpo-regular-box {
-                max-height: 258px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-loc {
-                max-height: 241px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged {
-                max-height: 178px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
-                max-height: 161px;
-              }
+    @media only screen and (max-width: 1280px) {
+      .yotpo-modal {
+        .yotpo-review {
+          .yotpo-main {
+            margin-left: 0;
+            .content-review {
+              font-size: 13px;
             }
-            .yotpo-review, .yotpo-instagram {
-              .yopto-main.yotpo-regular-box {
-                max-height: 392px;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-loc {
-                max-height: 375px;
-              }
-            }
-              .yotpo-gallery-products-container {
-              .yotpo-gallery-products-main {
-                .yotpo-gallery-product {
-                  .yotpo-gallery-product-name {
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                  }
+          }
+          .yotpo-footer {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .yotpo-modal {
+        .yotpo-modal-container {
+          top: 5%;
+          margin: auto;
+          .yotpo-gallery-slider-container {
+            position: inherit;
+            border-radius: 3px 3px 0 0 !important;
+            .yotpo-icon-btn-small {
+              .yotpo-icon {
+                &.yotpo-icon-cross {
+                  right: 14px;
+                  color: white;
                 }
               }
             }
           }
-          .yotpo-review {
-            .yotpo-main {
-              margin-left: 0;
-              .content-review {
-                font-size: 13px;
-              }
-            }
-            .yotpo-footer {
-              margin-left: 0;
-            }
+          .yotpo-gallery-content-container {
+            height: auto;
+            right: 0;
+            border-radius: 0 0 3px 3px !important;
+            position: inherit;
           }
         }
       }
@@ -394,16 +276,6 @@
             max-height: 700px;
             .yotpo-main {
               padding: 1px 0;
-            }
-            .yotpo-gallery-content-container {
-              .yotpo-instagram {
-                .yotpo-instagram-username {
-                  max-width: 250px;
-                }
-                .yotpo-instagram-location{
-                  max-width: 250px;
-                }
-              }
             }
           }
         }
@@ -448,26 +320,12 @@
                   padding: 1px 0;
                 }
               }
+
              .yotpo-instagram {
                .yotpo-regular-box {
                  padding-left: 0;
                }
-               .yotpo-instagram-username {
-                 max-width: 200px;
-               }
              }
-              .yotpo-gallery-products-container + .yotpo-review {
-                .yotpo-main{
-                  overflow: auto;
-                  max-height: 254px;
-                }
-              }
-              .yotpo-review {
-                .yotpo-main{
-                  overflow: auto;
-                  max-height: 388px;
-                }
-              }
             }
           }
         }
@@ -504,41 +362,6 @@
               }
             }
             .yotpo-gallery-content-container {
-              .yotpo-gallery-products-container+.yotpo-instagram  {
-                .yopto-main.yotpo-regular-box {
-                  max-height: 148px;
-                }
-                .yopto-main.yotpo-regular-box.yotpo-loc {
-                  max-height: 131px;
-                }
-                .yopto-main.yotpo-regular-box.yotpo-tagged {
-                  max-height: 68px;
-                }
-                .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
-                  max-height: 51px;
-                }
-              }
-              .yotpo-gallery-products-container + .yotpo-review {
-                .yotpo-main{
-                  overflow: auto;
-                  max-height: 144px;
-                }
-              }
-              .yotpo-review, .yotpo-instagram {
-                .yopto-main.yotpo-regular-box {
-                  max-height: 282px;
-                }
-                .yopto-main.yotpo-regular-box.yotpo-loc {
-                  max-height: 265px;
-                }
-                .yotpo-main{
-                  overflow: auto;
-                  max-height: 278px;
-                }
-                .yotpo-instagram-username {
-                  max-width: 200px;
-                }
-              }
               width: 368px;
               max-height: 420px;
               .yotpo-review {
@@ -546,62 +369,7 @@
                   padding: 1px 0;
                 }
               }
-              .yotpo-gallery-products-container {
-                .yotpo-gallery-product-button {
-                  font-size: (26 - $pictures-gallery-cta-text-length) + px;
-                }
-              }
             }
-          }
-        }
-      }
-    }
-
-    @media only screen and (max-width: 768px) {
-      .yotpo-modal.yotpo-modal-active  {
-        .yotpo-modal-container {
-          top: 5%;
-          margin: auto;
-          .yotpo-gallery-slider-container {
-            position: inherit;
-            border-radius: 3px 3px 0 0 !important;
-            .yotpo-icon-btn-small {
-              .yotpo-icon {
-                &.yotpo-icon-cross {
-                  right: 14px;
-                  color: white;
-                }
-              }
-            }
-          }
-          .yotpo-gallery-content-container {
-            .yotpo-review, .yotpo-instagram, .yotpo-gallery-products-container+.yotpo-review, .yotpo-gallery-products-container+.yotpo-instagram {
-              .yopto-main.yotpo-regular-box {
-                max-height: initial;
-                height: initial;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-loc {
-                max-height: initial;
-                height: initial;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged {
-                max-height: initial;
-                height: initial;
-              }
-              .yopto-main.yotpo-regular-box.yotpo-tagged.yotpo-loc {
-                max-height: initial;
-                height: initial;
-              }
-              .yotpo-main {
-                max-height: initial;
-                height: initial;
-              }
-            }
-            max-height: initial;
-            height: initial;
-            right: 0;
-            border-radius: 0 0 3px 3px !important;
-            position: inherit;
           }
         }
       }
@@ -629,12 +397,6 @@
                   }
                 }
               }
-              .yotpo-icon-btn-small {
-                .yotpo-icon.yotpo-icon-cross{
-                  right: 12px;
-                  top:22px;
-                }
-              }
             }
             .yotpo-gallery-content-container {
               position: inherit;
@@ -647,49 +409,7 @@
       }
     }
 
-    @media only screen and (max-width: 767px) {
-      .yotpo-modal {
-        &.yotpo-modal-active {
-          .yotpo-modal-container {
-            .yotpo-gallery-content-container {
-              position: inherit;
-              width: 445px;
-              right: 0;
-              display: table;
-            }
-            .yotpo-gallery-slider-container {
-              .yotpo-icon-btn-small {
-                .yotpo-icon.yotpo-icon-cross{
-                  right: 12px;
-                  top: 12px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    @media only screen and (max-width: 768px) and (min-width: 480px) {
-      .yotpo-modal {
-        &.yotpo-modal-active {
-          .yotpo-modal-container {
-            .yotpo-gallery-content-container {
-              .yotpo-instagram{
-                .yotpo-instagram-username {
-                  max-width: 250px;
-                }
-                .yotpo-instagram-location{
-                  max-width: 250px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-      @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       .yotpo-modal {
         &.yotpo-modal-active {
           .yotpo-modal-container {
@@ -721,18 +441,6 @@
                   display: none;
                 }
               }
-              .yotpo-instagram{
-                .yotpo-header{
-                  .yotpo-header-element.yotpo-header-actions{
-                    .y-label.yotpo-review-date{
-                      top: -10px;
-                    }
-                  }
-                }
-                .yotpo-instagram-username {
-                  max-width: 200px;
-                }
-              }
             }
           }
         }
@@ -740,62 +448,6 @@
     }
   }
 }
-@media only screen and (min-width: 1281px) {
-  .yotpo-gallery-products-container{
-    .yotpo-gallery-products-main{
-      .yotpo-gallery-product{
-        .yotpo-gallery-product-name{
-          max-width: 250px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 960px) and (max-width: 1280px) {
-  .yotpo-gallery-products-container{
-    .yotpo-gallery-products-main{
-      .yotpo-gallery-product{
-        .yotpo-gallery-product-name{
-          max-width: 220px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 960px) {
-  .yotpo-gallery-products-container{
-    .yotpo-gallery-products-main{
-      .yotpo-gallery-product{
-        .yotpo-gallery-product-name{
-          max-width: 205px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  .yotpo-gallery-products-container{
-    .yotpo-gallery-products-main{
-      .yotpo-gallery-product{
-        .yotpo-gallery-product-name{
-          max-width: 250px;
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 480px) {
-  .yotpo-gallery-products-container{
-    .yotpo-gallery-products-main{
-      .yotpo-gallery-product{
-        .yotpo-gallery-product-name{
-          max-width: 130px;
-        }
-      }
-    }
-  }
-}
-
 
 #yotpo-testimonials {
   .yotpo {
