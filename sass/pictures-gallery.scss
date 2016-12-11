@@ -1,4 +1,11 @@
 .yotpo-pictures-gallery {
+  .yotpo-default-button {
+    margin: 30px auto 30px auto;
+    display: table;
+    span {
+      color: #fff;
+    }
+  }
   .yotpo-image-loader {
     color: #e3e3e3;
     margin: auto;
@@ -30,7 +37,7 @@
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 30px)/7);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(7n)  {
           margin-right: 0;
@@ -39,13 +46,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 7);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-6 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 25px)/6);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(6n)  {
           margin-right: 0;
@@ -55,13 +63,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 6);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-5 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 20px)/5);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(5n)  {
           margin-right: 0;
@@ -71,13 +80,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 5);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-4 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 15px)/4);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(4n)  {
           margin-right: 0;
@@ -87,13 +97,14 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 4);
+      margin-right: -0.01px;
     }
   }
   &.yotpo-size-3, &.yotpo-size-2, &.yotpo-size-1 {
     .yotpo-image-spacing {
       .yotpo-single-image-container {
         width: calc((100% - 10px)/3);
-        margin-right: 5px;
+        margin-right: 4.99px;
         margin-bottom: 5px;
         &:nth-child(3n)  {
           margin-right: 0;
@@ -103,6 +114,7 @@
     }
     .yotpo-single-image-container {
       width: calc(100% / 3);
+      margin-right: -0.01px;
     }
 
     .yotpo-pictures-gallery-title-wrapper {
@@ -191,61 +203,5 @@
       padding-bottom: 0px;
     }
   }
-  .yotpo-gallery-products-container {
-    border-bottom: 1px solid $gray-light;
-    margin: -10px -32px 20px -22px;
-    padding-left: 22px;
-    padding-bottom: 20px;
 
-    .yotpo-gallery-product-main-image{
-      border-radius: 3px;
-      border: 1px solid $gray-light;
-      height: 100px;
-      width: 100px;
-      object-fit: cover;
-    }
-    .yotpo-gallery-product-name{
-      position: absolute;
-      display: initial;
-      margin-top: 15px;
-      margin-left: 15px;
-      color: $gray-darker;
-    }
-    .yotpo-gallery-product-button{
-      position: absolute;
-      margin-top: 50px;
-      margin-left: 15px;
-      color: $white;
-      background-color: $pictures-gallery-cta-color;
-      border-radius: 3px;
-      padding: 7px 50px;
-      border: none;
-      font-weight: bold;
-    }
-    .yotpo-gallery-products-footer{
-      margin-top: 10px;
-    }
-    .yotpo-gallery-products-select{
-      text-align: left;
-      margin-top: 10px;
-    }
-    .yotpo-gallery-product-select-image{
-      display: inline-block;
-      cursor: pointer;
-      border-radius: 3px;
-      border: 1px solid $gray-light;
-      margin-right: 1px;
-      height: 40px;
-      width: 40px;
-    }
-    .yotpo-gallery-product-selected {
-      border-color: $green;
-    }
-
-    @media only screen and (max-width: 480px) {
-      .yotpo-gallery-product-button {
-        padding: 7px 30px;
-      }
-    }
-  }
 }

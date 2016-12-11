@@ -407,6 +407,9 @@
   .yotpo-icon-insta:before {
     content: "\e632";
   }
+  .yotpo-icon-grid:before {
+    content: "\e900";
+  }
 
   .yotpo-icon-half-star {
     -moz-transform: scaleX($flip);
@@ -2028,6 +2031,29 @@
           font-size: 30px;
         }
       }
+      .yotpo-logo-line {
+        overflow: hidden;
+        border-bottom: 1px solid $gray-light;
+        position: relative;
+        top: 25px;
+        display: none;
+      }
+    }
+
+    .yotpo-label-border{
+      .yotpo-bottomline{
+        border-top: none;
+      }
+    }
+    .yotpo-label-border{
+      .yotpo-logo-line {
+        display: block;
+      }
+    }
+    .yotpo-label-border{
+      .yotpo-label{
+        border-bottom: none;
+      }
     }
 
     .logo-not-clickable-container {
@@ -3640,9 +3666,10 @@
 }
 
 #yotpo-testimonials-custom-tab {
-  .yotpo-modal-mask {
-    display: none;
+  #yotpo-testimonials .yotpo.yotpo-gallery .yotpo-modal .yotpo-modal-mask.yotpo-active-display{
+    opacity: 0.8;
   }
+
   .yotpo-modal-dialog {
     width: 100%;
     margin: 0;
@@ -3838,3 +3865,35 @@ div.yotpo-preloader-wrapper{
 
 
 /*End Animation */
+
+/* Mobile Slider */
+
+.yotpo-mobile-slider {
+  width:100%;
+  overflow-x: hidden;
+
+  .yotpo-mobile-slide {
+    height: 100%;
+    float: left;
+    position: relative;
+    padding: 10px;
+  }
+}
+.yotpo-mobile-slide-animation {
+  -webkit-transition: transform 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out;
+  -ms-transition: transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.yotpo-mobile-slider.ms-touch {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  -ms-scroll-chaining: none;
+  -ms-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
+}
+
+/* End Mobile Slider */
