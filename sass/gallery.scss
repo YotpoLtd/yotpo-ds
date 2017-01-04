@@ -156,7 +156,6 @@
             width: 426px;
             border-radius: 0 3px 3px 0;
             padding: 28px 32px 28px 22px;
-            word-break: break-all;
             overflow: auto;
             .yotpo-gallery-products-container + .yotpo-instagram {
               .yopto-main.yotpo-regular-box{
@@ -189,6 +188,15 @@
               .yotpo-main{
                 overflow: auto;
                 max-height: 514px;
+              }
+              .yotpo-header{
+                .yotpo-header-element{
+                  .y-label.yotpo-user-name{
+                    max-height: 17px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                  }
+                }
               }
             }
             .yotpo-instagram {
@@ -750,6 +758,15 @@
       }
     }
   }
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 235px;
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
   .yotpo-gallery-products-container{
@@ -757,6 +774,15 @@
       .yotpo-gallery-product{
         .yotpo-gallery-product-name{
           max-width: 220px;
+        }
+      }
+    }
+  }
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 199px;
         }
       }
     }
@@ -772,6 +798,15 @@
       }
     }
   }
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 177px;
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .yotpo-gallery-products-container{
@@ -779,6 +814,15 @@
       .yotpo-gallery-product{
         .yotpo-gallery-product-name{
           max-width: 250px;
+        }
+      }
+    }
+  }
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 254px;
         }
       }
     }
@@ -794,7 +838,28 @@
       }
     }
   }
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 216px;
+        }
+      }
+    }
+  }
 }
+@media only screen and (width: 768px) {
+  .yotpo-review {
+    .yotpo-header{
+      .yotpo-header-element{
+        .y-label.yotpo-user-name{
+          max-width: 229px;
+        }
+      }
+    }
+  }
+}
+
 
 
 #yotpo-testimonials {
