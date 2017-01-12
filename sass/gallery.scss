@@ -257,7 +257,7 @@
                 border: 1px solid $gray-light;
                 height: 100px;
                 width: 100px;
-                object-fit: cover;
+                object-fit: contain;
               }
               .yotpo-gallery-product-name{
                 overflow: hidden;
@@ -297,6 +297,7 @@
                 margin-right: 1px;
                 height: 40px;
                 width: 40px;
+                object-fit: contain;
               }
               .yotpo-gallery-product-selected {
                 border-color: $green;
