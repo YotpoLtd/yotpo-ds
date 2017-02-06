@@ -185,9 +185,15 @@
               }
             }
             .yotpo-review {
-              .yotpo-main{
+              .yotpo-main {
                 overflow: auto;
                 max-height: 514px;
+                .content-title {
+                  color: $default-gray-darker;
+                }
+                .content-review {
+                  color: $default-gray-darker;
+                }
               }
               .yotpo-header{
                 .yotpo-header-element{
